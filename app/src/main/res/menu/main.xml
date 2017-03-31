@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search"
+        android:title="@string/search"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_search"/>
+
+    <item
+        android:id="@+id/states"
+        android:orderInCategory="2"
+        app:showAsAction="always"
+        android:title="@string/states"
+        android:icon="@android:drawable/ic_menu_myplaces" >
+        <menu>
+            <item
+                android:id="@+id/arunachal_pradesh"
+                android:title="@string/arunachal_pradesh"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/assam"
+                android:title="@string/assam"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/manipur"
+                android:title="@string/manipur"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/meghalaya"
+                android:title="@string/meghalaya"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/mizoram"
+                android:title="@string/mizoram"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/nagaland"
+                android:title="@string/nagaland"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/sikkim"
+                android:title="@string/sikkim"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/tripura"
+                android:title="@string/tripura"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+
+    <item android:id="@+id/logout"
+        android:title="@string/logout"
+        app:showAsAction="never"/>
+</menu>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/topdestination"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Top Destinations" />
+        <item
+            android:id="@+id/NewsFeed"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="News Feed" />
+        <item
+            android:id="@+id/ExploreTheNorthEast"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Explore The North East" />
+        <item
+            android:id="@+id/Reviews"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Reviews" />
+    </group>
+
+    <item android:title="other">
+        <menu>
+            <item
+                android:id="@+id/ContactUs"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/AboutandHelp"
+                android:icon="@drawable/ic_menu_send"
+                android:title="About and Help" />
+        </menu>
+    </item>
+
+</menu>

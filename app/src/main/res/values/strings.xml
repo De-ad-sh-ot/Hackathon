@@ -1,0 +1,595 @@
+<resources>
+    <string name="app_name">Hackathon</string>
+
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="title_activity_destination_detail">Destination Detail</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="logout">Logout</string>
+
+    <!--Strings related to Navigation Drawer-->
+    <string name="top_destinations">Top Destinations</string>
+    <string name="news_feed">News Feed</string>
+    <string name="explore_the_north_east">Explore The North East</string>
+    <string name="reviews">Reviews</string>
+    <string name="nearby_facilities">Nearby Facilities</string>
+    <string name="about_and_help">About and Help</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="other">Other</string>
+    <string name="search">Search</string>
+    <string name="states">States</string>
+
+    <!--Strings related to states-->
+    <string name="arunachal_pradesh">Arunachal Pradesh</string>
+    <string name="assam">Assam</string>
+    <string name="manipur">Manipur</string>
+    <string name="meghalaya">Meghalaya</string>
+    <string name="mizoram">Mizoram</string>
+    <string name="nagaland">Nagaland</string>
+    <string name="sikkim">Sikkim</string>
+    <string name="tripura">Tripura</string>
+
+    <string-array name="topdestination_places" formatted="false">
+        <item>Kaziranga National Park</item>
+        <item>Tawang Monastry</item>
+        <item>Nathu La Pass</item>
+        <item>Siang River</item>
+        <item>Gorichen Peak</item>
+        <item>Nuranang Falls</item>
+        <item>Cherrapunji</item>
+        <item>Jaintia Hills</item>
+        <item>Madhuri Lake</item>
+        <item>Phodong Monastery</item>
+        <item>Ravangla</item>
+        <item>Dampa Tiger Reserve</item>
+        <item>Majuli Island</item>
+        <item>Shri Govindajee Temple</item>
+        <item>Shilloi Lake</item>
+        <item>Sela Pass</item>
+        <item>Root Bridge, Cherrapunji</item>
+        <item>Mawsmai Cave</item>
+        <item>Brahmaputra River</item>
+        <item>Plantation Estate</item>
+        <item>Yak Ride</item>
+        <item>Japfu Peak and Dzukou Valley</item>
+        <item>Touphema Village</item>
+        <item>Pelling</item>
+    </string-array>
+
+    <string-array name="topdestination_states" formatted="false">
+        <item>Assam</item>
+        <item>Arunachal Pradesh</item>
+        <item>Sikkim</item>
+        <item>Arunachal Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Meghalaya</item>
+        <item>Meghalaya</item>
+        <item>Arunachal Pradesh</item>
+        <item>Sikkim</item>
+        <item>Sikkim</item>
+        <item>Mizoram</item>
+        <item>Assam</item>
+        <item>Manipur</item>
+        <item>Nagaland</item>
+        <item>Arunachal Pradesh</item>
+        <item>Meghalaya</item>
+        <item>Meghalaya</item>
+        <item>Assam, Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Sikkim</item>
+        <item>Nagaland</item>
+        <item>Nagaland</item>
+        <item>Sikkim</item>
+    </string-array>
+
+    <string-array name="states" formatted="false">
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Sikkim</item>
+        <item>Tripura</item>
+    </string-array>
+
+    <string-array name="states_capital" formatted="false">
+        <item>Guwahati(Judiciary), Itanagar</item>
+        <item>Dispur</item>
+        <item>Imphal</item>
+        <item>Shillong</item>
+        <item>Aizwal</item>
+        <item>Kohima</item>
+        <item>Gangtok</item>
+        <item>Agartala</item>
+    </string-array>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--String arrays related to String_detail_detail.java file-->
+    <string-array name="state_detail">
+        <item>Tourist Spots</item>
+        <item>Festivals</item>
+        <item>Dances</item>
+        <item>Cuisines</item>
+        <item>How to reach?</item>
+    </string-array>
+
+    <string-array name="assam_tourist">
+        <item>ast1</item>
+        <item>ast2</item>
+        <item>ast3</item>
+        <item>ast4</item>
+        <item>ast5</item>
+        <item>ast6</item>
+        <item>ast7</item>
+    </string-array>
+
+    <string-array name="assam_dance">
+        <item>Bihu Dances</item>
+        <item>Satriya Nritya</item>
+        <item>Barpeta\'s Bhortal Nritya</item>
+        <item>Tea Folk\'s Jumur Nach</item>
+        <item>Bodo\'s Bagurumba</item>
+        <item>Mishing\'s Ali Ai Ligang</item>
+    </string-array>
+
+    <string-array name="assam_dance_images" formatted="false">
+        <item>http://www.myfolkfitness.com/images/blog/4Bihu-Dance1.jpg</item>
+        <item>http://4.bp.blogspot.com/-W1XpVh003NU/UIItoeB_foI/AAAAAAAAHjo/N8UJi37JBuA/s1600/55.jpg</item>
+        <item>http://www.nezine.com/showpicture/photos/BHORTAAL%2003%20(%20PHOTO%20BY%20-%20ARUP%20JYOTI%20KALITA%20).jpg/800/800 </item>
+        <item>http://2.bp.blogspot.com/-qH7wYjNvCQI/TeNFlSjz1wI/AAAAAAAAAIo/W3z5Gk1-NTE/s1600/jhumur_dance.jpg</item>
+        <item>http://naturalholidays.in/images/bodo-tribe.jpg</item>
+        <item>https://i1.wp.com/jungleideas.files.wordpress.com/2016/01/the-ali-ai-ligang-festival-of-the-mishings-in-assam.jpg?w=338&amp;h=338&amp;crop=1&amp;ssl=1</item>
+    </string-array>
+
+    <string-array name="assam_cuisine" formatted="false">
+        <item>Khaar(Meat Delicacy)</item>
+        <item>Duck Meat Curry</item>
+        <item>Maasor Tenga(Fish Curry)</item>
+        <item>Aloo Pitika</item>
+        <item>Xaak Aru Bhaji</item>
+        <item>Ou Khatta</item>
+        <item>Paro Manxho (Pigeon Meat)</item>
+        <item>Silkworm</item>
+        <item>Baanhgajor Lagot Kukura</item>
+        <item>Pitha (Sweet Dish)</item>
+    </string-array>
+
+    <string-array name="assam_cuisine_images" formatted="false">
+        <item>https://www.holidify.com/blog/wp-content/uploads/2015/11/8551488501_893b368f26_b.jpg</item>
+        <item>https://www.holidify.com/blog/wp-content/uploads/2015/11/6497239243_8ec347a33c_b.jpg</item>
+        <item>https://s-media-cache-ak0.pinimg.com/564x/6b/79/30/6b7930e3ad4c5a506d284caf98966e2a.jpg </item>
+        <item>http://www.cravebits.com/wp-content/uploads/2014/05/Aloo-Pitika.jpg</item>
+        <item>http://www.nelive.in/sites/default/files/Kon%20Bilahir%20logot%20Paleng%20aru%20Morisa%20Xaakor%20Bhaji.png</item>
+        <item>https://www.holidify.com/blog/wp-content/uploads/2015/11/DSC08746.jpg</item>
+        <item>https://www.holidify.com/blog/wp-content/uploads/2015/11/5592534137_2ae721819f_z.jpg</item>
+        <item>https://www.holidify.com/blog/wp-content/uploads/2015/11/4159112992_9c11a21a81_z.jpg</item>
+        <item>https://www.holidify.com/blog/wp-content/uploads/2015/11/2446023942_1d23d990dd_z.jpg </item>
+        <item>https://s3.scoopwhoop.com/ach/NE/3.jpg</item>
+    </string-array>
+
+    <string-array name="assam_how">
+        <item>ash1</item>
+        <item>ash2</item>
+        <item>ash3</item>
+        <item>ash4</item>
+        <item>ash5</item>
+        <item>ash6</item>
+        <item>ash7</item>
+    </string-array>
+
+    <string-array name="assam_festival" formatted="false">
+        <item>Bihu Festival</item>
+        <item>Ambubashi Festival</item>
+        <item>Ras Lila in Majuli</item>
+        <item>Dehing Patkai Festival</item>
+        <item>Tea Festival</item>
+        <item>Brahmaputra Beach Festival</item>
+        <item>Kaziranga Elephant Festival</item>
+    </string-array>
+
+    <string-array name="assam_festival_images" formatted="false">
+        <item>http://www.myfolkfitness.com/images/blog/4Bihu-Dance1.jpg</item>
+        <item>https://greenerpasturesind.files.wordpress.com/2012/06/ganesha-at-kamakhya-temple-during-ambubashi-mela-in-guwahati.jpg?w=366</item>
+        <item>http://asmenvis.nic.in/WriteReadData/UserFiles/image/1290419018-dakhinpat-satra-of-majuli-performs-raas-leela_514257.jpg</item>
+        <item>http://onlinesivasagar.com/gallery2/var/albums/Tourists-Places-of-Assam-NE/dehing-tribes.jpg?m=1337402761</item>
+        <item>http://www.incredible-northeastindia.com/images/assam/banner-img1.jpg</item>
+        <item>https://2.bp.blogspot.com/-xtdQ8Q4_oCY/VyHMYF9IZDI/AAAAAAAAFqk/rPQoA_qNi1kQjvkQiQlwQw_hSYh0FmkmwCLcB/s1600/Brahmaputra%2Bbeach%2Bfest.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/c/cc/Kaziranga_Elephant_Festival_2009.jpg</item>
+    </string-array>
+
+    <string-array name="manipur_tourist">
+        <item>manipurt1</item>
+        <item>manipurt2</item>
+        <item>manipurt3</item>
+        <item>manipurt4</item>
+        <item>manipurt5</item>
+        <item>manipurt6</item>
+        <item>manipurt7</item>
+    </string-array>
+
+    <string-array name="manipur_dance">
+        <item>manipurd1</item>
+        <item>manipurd2</item>
+        <item>manipurd3</item>
+        <item>manipurd4</item>
+        <item>manipurd5</item>
+        <item>manipurd6</item>
+        <item>manipurd7</item>
+    </string-array>
+
+    <string-array name="manipur_cuisine">
+        <item>manipurc1</item>
+        <item>manipurc2</item>
+        <item>manipurc3</item>
+        <item>manipurc4</item>
+        <item>manipurc5</item>
+        <item>manipurc6</item>
+        <item>manipurc7</item>
+    </string-array>
+
+    <string-array name="manipur_how">
+        <item>manipurh1</item>
+        <item>manipurh2</item>
+        <item>manipurh3</item>
+        <item>manipurh4</item>
+        <item>manipurh5</item>
+        <item>manipurh6</item>
+        <item>manipurh7</item>
+    </string-array>
+
+    <string-array name="manipur_festival">
+        <item>manipurf1</item>
+        <item>manipurf2</item>
+        <item>manipurf3</item>
+        <item>manipurf4</item>
+        <item>manipurf5</item>
+        <item>manipurf6</item>
+        <item>manipurf7</item>
+    </string-array>
+
+    <string-array name="arunachal_tourist">
+        <item>apt1</item>
+        <item>apt2</item>
+        <item>apt3</item>
+        <item>apt4</item>
+        <item>apt5</item>
+        <item>apt6</item>
+        <item>apt7</item>
+    </string-array>
+
+    <string-array name="arunachal_dance">
+        <item>apd1</item>
+        <item>apd2</item>
+        <item>apd3</item>
+        <item>apd4</item>
+        <item>apd5</item>
+        <item>apd6</item>
+        <item>apd7</item>
+    </string-array>
+
+    <string-array name="arunachal_cuisine">
+        <item>apc1</item>
+        <item>apc2</item>
+        <item>apc3</item>
+        <item>apc4</item>
+        <item>apc5</item>
+        <item>apc6</item>
+        <item>apc7</item>
+    </string-array>
+
+    <string-array name="arunachal_how">
+        <item>aph1</item>
+        <item>aph2</item>
+        <item>aph3</item>
+        <item>aph4</item>
+        <item>aph5</item>
+        <item>aph6</item>
+        <item>aph7</item>
+    </string-array>
+
+    <string-array name="arunachal_festival">
+        <item>apf1</item>
+        <item>apf2</item>
+        <item>apf3</item>
+        <item>apf4</item>
+        <item>apf5</item>
+        <item>apf6</item>
+        <item>apf7</item>
+    </string-array>
+
+    <string-array name="meghalaya_tourist">
+        <item>meghalayat1</item>
+        <item>meghalayat2</item>
+        <item>meghalayat3</item>
+        <item>meghalayat4</item>
+        <item>meghalayat5</item>
+        <item>meghalayat6</item>
+        <item>meghalayat7</item>
+    </string-array>
+
+    <string-array name="meghalaya_dance">
+        <item>meghalayad1</item>
+        <item>meghalayad2</item>
+        <item>meghalayad3</item>
+        <item>meghalayad4</item>
+        <item>meghalayad5</item>
+        <item>meghalayad6</item>
+        <item>meghalayad7</item>
+    </string-array>
+
+    <string-array name="meghalaya_cuisine">
+        <item>meghalayac1</item>
+        <item>meghalayac2</item>
+        <item>meghalayac3</item>
+        <item>meghalayac4</item>
+        <item>meghalayac5</item>
+        <item>meghalayac6</item>
+        <item>meghalayac7</item>
+    </string-array>
+
+    <string-array name="meghalaya_how">
+        <item>meghalayah1</item>
+        <item>meghalayah2</item>
+        <item>meghalayah3</item>
+        <item>meghalayah4</item>
+        <item>meghalayah5</item>
+        <item>meghalayah6</item>
+        <item>meghalayah7</item>
+    </string-array>
+
+    <string-array name="meghalaya_festival">
+        <item>meghalayaf1</item>
+        <item>meghalayaf2</item>
+        <item>meghalayaf3</item>
+        <item>meghalayaf4</item>
+        <item>meghalayaf5</item>
+        <item>meghalayaf6</item>
+        <item>meghalayaf7</item>
+    </string-array>
+
+    <string-array name="mizoram_tourist">
+        <item>mizoramt1</item>
+        <item>mizoramt2</item>
+        <item>mizoramt3</item>
+        <item>mizoramt4</item>
+        <item>mizoramt5</item>
+        <item>mizoramt6</item>
+        <item>mizoramt7</item>
+    </string-array>
+
+    <string-array name="mizoram_dance">
+        <item>mizoramd1</item>
+        <item>mizoramd2</item>
+        <item>mizoramd3</item>
+        <item>mizoramd4</item>
+        <item>mizoramd5</item>
+        <item>mizoramd6</item>
+        <item>mizoramd7</item>
+    </string-array>
+
+    <string-array name="mizoram_cuisine">
+        <item>mizoramc1</item>
+        <item>mizoramc2</item>
+        <item>mizoramc3</item>
+        <item>mizoramc4</item>
+        <item>mizoramc5</item>
+        <item>mizoramc6</item>
+        <item>mizoramc7</item>
+    </string-array>
+
+    <string-array name="mizoram_how">
+        <item>mizoramh1</item>
+        <item>mizoramh2</item>
+        <item>mizoramh3</item>
+        <item>mizoramh4</item>
+        <item>mizoramh5</item>
+        <item>mizoramh6</item>
+        <item>mizoramh7</item>
+    </string-array>
+
+    <string-array name="mizoram_festival">
+        <item>mizoramf1</item>
+        <item>mizoramf2</item>
+        <item>mizoramf3</item>
+        <item>mizoramf4</item>
+        <item>mizoramf5</item>
+        <item>mizoramf6</item>
+        <item>mizoramf7</item>
+    </string-array>
+
+    <string-array name="nagaland_tourist">
+        <item>nagalandt1</item>
+        <item>nagalandt2</item>
+        <item>nagalandt3</item>
+        <item>nagalandt4</item>
+        <item>nagalandt5</item>
+        <item>nagalandt6</item>
+        <item>nagalandt7</item>
+    </string-array>
+
+    <string-array name="nagaland_dance">
+        <item>nagalandd1</item>
+        <item>nagalandd2</item>
+        <item>nagalandd3</item>
+        <item>nagalandd4</item>
+        <item>nagalandd5</item>
+        <item>nagalandd6</item>
+        <item>nagalandd7</item>
+    </string-array>
+
+    <string-array name="nagaland_cuisine">
+        <item>nagalandc1</item>
+        <item>nagalandc2</item>
+        <item>nagalandc3</item>
+        <item>nagalandc4</item>
+        <item>nagalandc5</item>
+        <item>nagalandc6</item>
+        <item>nagalandc7</item>
+    </string-array>
+
+    <string-array name="nagaland_how">
+        <item>nagalandh1</item>
+        <item>nagalandh2</item>
+        <item>nagalandh3</item>
+        <item>nagalandh4</item>
+        <item>nagalandh5</item>
+        <item>nagalandh6</item>
+        <item>nagalandh7</item>
+    </string-array>
+
+    <string-array name="nagaland_festival">
+        <item>nagalandf1</item>
+        <item>nagalandf2</item>
+        <item>nagalandf3</item>
+        <item>nagalandf4</item>
+        <item>nagalandf5</item>
+        <item>nagalandf6</item>
+        <item>nagalandf7</item>
+    </string-array>
+
+    <string-array name="sikkim_tourist">
+        <item>sikkimt1</item>
+        <item>sikkimt2</item>
+        <item>sikkimt3</item>
+        <item>sikkimt4</item>
+        <item>sikkimt5</item>
+        <item>sikkimt6</item>
+        <item>sikkimt7</item>
+    </string-array>
+
+    <string-array name="sikkim_dance">
+        <item>sikkimd1</item>
+        <item>sikkimd2</item>
+        <item>sikkimd3</item>
+        <item>sikkimd4</item>
+        <item>sikkimd5</item>
+        <item>sikkimd6</item>
+        <item>sikkimd7</item>
+    </string-array>
+
+    <string-array name="sikkim_cuisine">
+        <item>sikkimc1</item>
+        <item>sikkimc2</item>
+        <item>sikkimc3</item>
+        <item>sikkimc4</item>
+        <item>sikkimc5</item>
+        <item>sikkimc6</item>
+        <item>sikkimc7</item>
+    </string-array>
+
+    <string-array name="sikkim_how">
+        <item>sikkimh1</item>
+        <item>sikkimh2</item>
+        <item>sikkimh3</item>
+        <item>sikkimh4</item>
+        <item>sikkimh5</item>
+        <item>sikkimh6</item>
+        <item>sikkimh7</item>
+    </string-array>
+
+    <string-array name="sikkim_festival">
+        <item>sikkimf1</item>
+        <item>sikkimf2</item>
+        <item>sikkimf3</item>
+        <item>sikkimf4</item>
+        <item>sikkimf5</item>
+        <item>sikkimf6</item>
+        <item>sikkimf7</item>
+    </string-array>
+
+    <string-array name="tripura_tourist">
+        <item>tripurat1</item>
+        <item>tripurat2</item>
+        <item>tripurat3</item>
+        <item>tripurat4</item>
+        <item>tripurat5</item>
+        <item>tripurat6</item>
+        <item>tripurat7</item>
+    </string-array>
+
+    <string-array name="tripura_dance">
+        <item>tripurad1</item>
+        <item>tripurad2</item>
+        <item>tripurad3</item>
+        <item>tripurad4</item>
+        <item>tripurad5</item>
+        <item>tripurad6</item>
+        <item>tripurad7</item>
+    </string-array>
+
+    <string-array name="tripura_cuisine">
+        <item>tripurac1</item>
+        <item>tripurac2</item>
+        <item>tripurac3</item>
+        <item>tripurac4</item>
+        <item>tripurac5</item>
+        <item>tripurac6</item>
+        <item>tripurac7</item>
+    </string-array>
+
+    <string-array name="tripura_how">
+        <item>tripurah1</item>
+        <item>tripurah2</item>
+        <item>tripurah3</item>
+        <item>tripurah4</item>
+        <item>tripurah5</item>
+        <item>tripurah6</item>
+        <item>tripurah7</item>
+    </string-array>
+
+    <string-array name="tripura_festival">
+        <item>tripuraf1</item>
+        <item>tripuraf2</item>
+        <item>tripuraf3</item>
+        <item>tripuraf4</item>
+        <item>tripuraf5</item>
+        <item>tripuraf6</item>
+        <item>tripuraf7</item>
+    </string-array>
+
+</resources>
