@@ -58,12 +58,14 @@ String myname,myusername,myemail,myphone,mypassword;
         email = (EditText) findViewById(R.id.email);
         phone = (EditText) findViewById(R.id.phone);
         password = (EditText) findViewById(R.id.password);
-        btnRegister = (Button) findViewById(R.id.btnRegister);
+        btnRegister = (Button) findViewById(R.id.btn_register);
         btnLinkToLoginScreen = (Button) findViewById(R.id.btnLinkToLoginScreen);
 
         btnRegister.setOnClickListener(this);
         btnLinkToLoginScreen.setOnClickListener(this);
-    }
+        jsonparser = new JSONParser();
+        url = "http://192.168.43.112/Hackathon/Register.php";
+}
     @Override
     public void onClick(View v) {
         if (v == btnRegister) {
@@ -72,13 +74,17 @@ String myname,myusername,myemail,myphone,mypassword;
             myemail = email.getText().toString();
             myphone = phone.getText().toString();
             mypassword = password.getText().toString();
-      if(validateEmail()==true && validateName()==true) {
+      if(validateEmail()==true && validateName()==true && validatePhone()==true ) {
           new Jadu().execute();
+      Intent intent=new Intent(RegisterUser.this,MainActivity.class);
+          startActivity(intent);
       }
             else{
           Toast.makeText(this, "Invalid Details", Toast.LENGTH_SHORT).show();
       }
         } else if (v == btnLinkToLoginScreen) {
+       Intent intent=new Intent(RegisterUser.this,LoginActivity.class);
+            startActivity(intent);
         }
     }
 
@@ -123,7 +129,7 @@ String myname,myusername,myemail,myphone,mypassword;
             // TODO Auto-generated method stub
             super.onPreExecute();
             pd = new ProgressDialog(RegisterUser.this);
-            pd.setMessage("SAVING DATA");
+            pd.setMessage("Registering ...");
             pd.show();
         }
     }
@@ -147,7 +153,14 @@ String myname,myusername,myemail,myphone,mypassword;
         if (name.getText().toString().isEmpty()) {
             return false;
         } else {
-       return true;
+              return true;
         }
     }
+    private boolean validatePhone() {
+        if ( phone.length()==10) {
+            return true;
+        } else {
+            return false;
+        }
+}
 }

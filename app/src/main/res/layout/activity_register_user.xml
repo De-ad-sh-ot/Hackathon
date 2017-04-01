@@ -61,7 +61,7 @@
             android:hint="Phone Number"
             android:padding="10dp"
             android:singleLine="true"
-            android:inputType="textCapWords"
+            android:inputType="phone"
             android:textColor="@color/input_register"
             android:textColorHint="@color/input_register_hint" />
         <EditText
@@ -79,7 +79,7 @@
 
 
         <Button
-            android:id="@+id/btnRegister"
+            android:id="@+id/btn_register"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dip"
@@ -96,7 +96,7 @@
             android:background="@null"
             android:text="Login"
             android:textAllCaps="false"
-            android:textColor="@color/white"
+            android:textColor="@color/magenta"
             android:textSize="15dp" />
     </LinearLayout>
 
