@@ -127,7 +127,8 @@ public class MainActivity extends AppCompatActivity
             startActivity(i);
 
         } else if (id == R.id.NewsFeed) {
-
+            Intent i=new Intent(MainActivity.this,newsFeed.class);
+            startActivity(i);
         } else if (id == R.id.ExploreTheNorthEast) {
             Intent i=new Intent(MainActivity.this,States.class);
             startActivity(i);

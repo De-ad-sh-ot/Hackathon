@@ -80,7 +80,7 @@ public class newsFeed extends ActionBarActivity {
             ListAdapter adapter = new SimpleAdapter(
                     newsFeed.this, personList, R.layout.list_item,
                     new String[]{TAG_STATE,TAG_CITY, TAG_NEWS},
-                    new int[]{R.id.hotel_name,R.id.hotel_name_defined, R.id.review});
+                    new int[]{R.id.state_name,R.id.state_city, R.id.news});
 
             list.setAdapter(adapter);
 
