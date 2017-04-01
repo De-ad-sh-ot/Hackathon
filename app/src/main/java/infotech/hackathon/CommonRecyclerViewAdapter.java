@@ -26,7 +26,7 @@ public class CommonRecyclerViewAdapter extends RecyclerView.Adapter {
     private int id;
     private int screenWidth;
 
-    public CommonRecyclerViewAdapter(Activity activity, ArrayList<Bean> arrayList_bean,int id) {
+    public CommonRecyclerViewAdapter(Activity activity, ArrayList<Bean> arrayList_bean, int id) {
         this.activity = activity;
         this.arrayList_bean=arrayList_bean;
         this.id=id;
@@ -59,10 +59,10 @@ public class CommonRecyclerViewAdapter extends RecyclerView.Adapter {
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
         final Holder myHolder = (Holder) holder;
 
-        BitmapFactory.Options opts = new BitmapFactory.Options();
-        opts.inJustDecodeBounds = true;
-        BitmapFactory.decodeFile(arrayList_bean.get(position).getImageView(), opts);
-        opts.inJustDecodeBounds = false;
+//        BitmapFactory.Options opts = new BitmapFactory.Options();
+//        opts.inJustDecodeBounds = true;
+//        BitmapFactory.decodeFile(arrayList_bean.get(position).getImageView(), opts);
+//        opts.inJustDecodeBounds = false;
 
         myHolder.tv1.setText(arrayList_bean.get(position).getTextView1());
         if(id==0)

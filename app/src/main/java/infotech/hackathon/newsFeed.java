@@ -33,6 +33,7 @@ public class newsFeed extends ActionBarActivity {
     private static final String TAG_CITY = "city";
 
     private static final String TAG_NEWS = "news";
+    private static final String TAG_selfie = "selfie";
 
 
     JSONArray peoples = null;
@@ -68,19 +69,19 @@ public class newsFeed extends ActionBarActivity {
                 String state = c.getString(TAG_STATE);
                String city= c.getString(TAG_CITY);
                 String news = c.getString(TAG_NEWS);
-
+                String selfie=c.getString(TAG_selfie);
                 HashMap<String, String> persons = new HashMap<String, String>();
 
                 persons.put(TAG_STATE, state);
                 persons.put(TAG_CITY, city);
                 persons.put(TAG_NEWS, news);
-
+persons.put(TAG_selfie,selfie);
                 personList.add(persons);
             }
             ListAdapter adapter = new SimpleAdapter(
                     newsFeed.this, personList, R.layout.list_item,
-                    new String[]{TAG_STATE,TAG_CITY, TAG_NEWS},
-                    new int[]{R.id.state_name,R.id.state_city, R.id.news});
+                    new String[]{TAG_STATE,TAG_CITY, TAG_NEWS,TAG_selfie},
+                    new int[]{R.id.state_name,R.id.state_city, R.id.news,R.id.IMageView});
 
             list.setAdapter(adapter);
 
@@ -96,7 +97,7 @@ public class newsFeed extends ActionBarActivity {
             @Override
             protected String doInBackground(String... params) {
                 DefaultHttpClient httpclient = new DefaultHttpClient(new BasicHttpParams());
-                HttpPost httppost = new HttpPost("http://192.168.43.112/Hackathon/newsfetch.php");
+                HttpPost httppost = new HttpPost("http://www.dargalaxy.com/loginsyshackathon/admin/newsfetch.php");
 
 
                 httppost.setHeader("Content-type", "application/json");

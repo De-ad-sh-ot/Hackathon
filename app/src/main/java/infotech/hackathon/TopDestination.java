@@ -17,6 +17,7 @@ public class TopDestination extends AppCompatActivity{
     static String[] names;
     static String[] states;
     static String[] locations;
+    static String[] content;
 
     public static String[] IMAGES;
 
@@ -31,6 +32,7 @@ public class TopDestination extends AppCompatActivity{
         states = getResources().getStringArray(R.array.topdestination_states);
         IMAGES=getResources().getStringArray(R.array.topdestination_images);
         locations=getResources().getStringArray((R.array.topdestination_location));
+        content=getResources().getStringArray(R.array.topdestination_content);
 
         ArrayList<Bean> arrayList_bean = new ArrayList<>();
 

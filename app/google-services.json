@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "207235324870",
+    "firebase_url": "https://hackathon-ad38e.firebaseio.com",
+    "project_id": "hackathon-ad38e",
+    "storage_bucket": "hackathon-ad38e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207235324870:android:1332816cc34ab408",
+        "android_client_info": {
+          "package_name": "infotech.hackathon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "207235324870-3jjt6518uim4r6obhv66150aagdd87i9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDn68srwv_Ta5J4ve5IgDC8axbwjVnKgOE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

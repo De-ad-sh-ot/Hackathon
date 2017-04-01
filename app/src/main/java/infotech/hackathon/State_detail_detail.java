@@ -15,6 +15,7 @@ public class State_detail_detail extends AppCompatActivity {
     private RecyclerView.LayoutManager mLayoutManager;
     CommonRecyclerViewAdapter adapter;
     static String[] state_detail_detail_name;
+    static String[] state_detail_detail_content;
     static int ResId_state_detail;
     static String[] state_detail_detail_images={
             "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Indian_rhinoceros%2Ckaziranga_national_park.jpg/1280px-Indian_rhinoceros%2Ckaziranga_national_park.jpg",
@@ -71,6 +72,7 @@ public class State_detail_detail extends AppCompatActivity {
                     case 2:
                         state_detail_detail_name=getResources().getStringArray(R.array.assam_dance);
                         state_detail_detail_images=getResources().getStringArray(R.array.assam_dance_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.assam_dance_content);
                         break;
                     case 3:
                         state_detail_detail_name=getResources().getStringArray(R.array.assam_cuisine);
