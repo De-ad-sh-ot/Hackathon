@@ -45,11 +45,38 @@
     <string name="sikkim">Sikkim</string>
     <string name="tripura">Tripura</string>
 
+    <string-array name="topdestination_location" formatted="false">
+        <item>geo:26.5775,93.1711</item>
+        <item>geo:27.5867,91.8577</item>
+        <item>geo:27.3869,88.8311</item>
+        <item>geo:27.8000000,95.5000000</item>
+        <item>geo:27.7949,92.3876</item>
+        <item>geo:27.5895,91.9833</item>
+        <item>geo:25.2717,91.7308</item>
+        <item>geo:25.5021,92.3419</item>
+        <item>geo:27.7221,91.8254</item>
+        <item>geo:27.416786,88.582944</item>
+        <item>geo:27.3066,88.3640</item>
+        <item>geo:23.3242,92.1312</item>
+        <item>geo:26.570,94.100</item>
+        <item>geo:24.7980,93.9482</item>
+        <item>geo:25.5956,94.7931</item>
+        <item>geo:27.5035,92.1044</item>
+        <item>geo:25.241711,91.679032</item>
+        <item>geo:25.2443,91.7384</item>
+        <item>geo:26.20073,91.74683</item>
+        <item>geo:</item>
+        <item>geo:</item>
+        <item>geo:25.6704,94.1095</item>
+        <item>geo:25.8455682,94.1769749</item>
+        <item>geo:27.3198,88.2400</item>
+    </string-array>
+
     <string-array name="topdestination_places" formatted="false">
         <item>Kaziranga National Park</item>
         <item>Tawang Monastry</item>
         <item>Nathu La Pass</item>
-        <item>Siang River</item>
+        <item>River Rafting in Siang</item>
         <item>Gorichen Peak</item>
         <item>Nuranang Falls</item>
         <item>Cherrapunji</item>
@@ -65,7 +92,7 @@
         <item>Root Bridge, Cherrapunji</item>
         <item>Mawsmai Cave</item>
         <item>Brahmaputra River</item>
-        <item>Plantation Estate</item>
+        <item>Gatoonga Tea Estate</item>
         <item>Yak Ride</item>
         <item>Japfu Peak and Dzukou Valley</item>
         <item>Touphema Village</item>
@@ -97,6 +124,34 @@
         <item>Nagaland</item>
         <item>Nagaland</item>
         <item>Sikkim</item>
+    </string-array>
+
+    <string-array name="topdestination_images" formatted="false">
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Indian_rhinoceros%2Ckaziranga_national_park.jpg/1280px-Indian_rhinoceros%2Ckaziranga_national_park.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Tawang_Monastery_at_April.jpg/1280px-Tawang_Monastery_at_April.jpg</item>
+        <item>http://d27k8xmh3cuzik.cloudfront.net/wp-content/uploads/2015/01/Nathu-La-pass.jpg</item>
+        <item>http://maxpixel.freegreatpicture.com/static/photo/1x/River-Rafting-Water-Raft-Whitewater-Boat-Sport-444743.jpg</item>
+        <item>http://bhaaratdarshan.com/ar/wp-content/uploads/2016/05/main-Gorichen-Peak-bhaaratdarshan-1.jpg</item>
+        <item>https://en.wikipedia.org/wiki/Nuranang_Falls#/media/File:Nuranang.JPG</item>
+        <item>https://en.wikipedia.org/wiki/File:Nohkalikai_falls.jpg</item>
+        <item>http://d27k8xmh3cuzik.cloudfront.net/wp-content/uploads/2015/01/Jaintia-Hills1.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/a/a5/Madhuri_Lake.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/a/af/Phodong_monastery_-_north_sikkim.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/7/70/The_Buddha_Park_or_Tathagata_Sthal%2C_Sikkim.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/2/2a/2010-kabini-tiger.jpg</item>
+        <item>http://d27k8xmh3cuzik.cloudfront.net/wp-content/uploads/2015/01/Majuli-Islands1.jpg</item>
+        <item>http://sevendiary.com/wp-content/uploads/2015/07/Shri-Govindajee-Temple_Imphal.jpg</item>
+        <item>http://d27k8xmh3cuzik.cloudfront.net/wp-content/uploads/2015/01/Shilloi-Lake1.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/1/11/2007-sela-pass-1.jpg</item>
+        <item>https://www.holidify.com/blog/wp-content/uploads/2014/10/5512100471_3fdacfdbb1_z.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/e/e7/Mawsmai_Cave_in_Meghalaya%2C_India.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/8/88/Brahmaputra_River_Shigatse.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/9/98/Mount-dempo-tea-plantation.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/f/f5/Yak_animal_in_Sikkim_India.JPG</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/The_Dzukou_Valley.JPG/800px-The_Dzukou_Valley.JPG</item>
+        <item>https://www.holidify.com/blog/wp-content/uploads/2014/10/2091431903_9a291d6735_z.jpg</item>
+        <item>https://tmi2-tourmyindiapvtlt.netdna-ssl.com/blog/wp-content/uploads/2015/01/pelling-kanchendzonga.jpg</item>
+        };
     </string-array>
 
     <string-array name="states" formatted="false">
@@ -153,19 +208,75 @@
     <string-array name="state_detail">
         <item>Tourist Spots</item>
         <item>Festivals</item>
-        <item>Dances</item>
+        <item>Music &amp; Dances</item>
         <item>Cuisines</item>
         <item>How to reach?</item>
     </string-array>
 
     <string-array name="assam_tourist">
-        <item>ast1</item>
-        <item>ast2</item>
-        <item>ast3</item>
-        <item>ast4</item>
-        <item>ast5</item>
-        <item>ast6</item>
-        <item>ast7</item>
+        <item>Kaziranga National Park</item>
+        <item>Kamakhya Temple</item>
+        <item>Umananda Temple</item>
+        <item>Dipor Bil</item>
+        <item>Srimanta Sankardev Kalakshetra</item>
+        <item>Manas National Park</item>
+        <item>Assam State Zoo cum Botanical Garden</item>
+        <item>Madan Kamdev</item>
+        <item>Assam State Museum</item>
+        <item>Pobitora Wildlife Sanctuary</item>
+        <item>Rang Ghar</item>
+        <item>Agnigarh</item>
+        <item>Sivasagar Sivadol</item>
+        <item>Chitralekha Udyan</item>
+        <item>Orang National Park</item>
+        <item>Ugro Tara Temple</item>
+        <item>Mahabhairav Temple</item>
+        <item>Balaji Temple</item>
+        <item>Basistha Temple</item>
+        <item>Hayagriva Madhava Temple</item>
+        <item>Sri Surya Pahar</item>
+        <item>Kareng Ghar</item>
+        <item>Padum Pukhuri</item>
+        <item>Tai Museum</item>
+        <item>Hari Mandir</item>
+        <item>Sukapha Samannay Kshetra</item>
+        <item>Lankeshwar Temple</item>
+        <item>Treasure Wheel</item>
+        <item>Nilachal Hill</item>
+        <item>Digboi Oil Museum</item>
+    </string-array>
+
+    <string-array name="assam_tourist_images" formatted="false">
+        <item>http://www.kaziranga-national-park.com/images/kaziranga-national-park2.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Kamakhya_Guwahati.JPG/1024px-Kamakhya_Guwahati.JPG</item>
+        <item>http://photos.wikimapia.org/p/00/02/00/90/24_big.jpg</item>
+        <item>http://www.travelspeak.in/assets/resources/Deepor-Beel-Guwahati.jpg</item>
+        <item>http://kalakshetra-assam.com/wp-content/uploads/2015/12/img1001.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/a/a7/Heard_of_Asian_water_buffalo_in_the_bank_of_Manas_River.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Pelican_in_flock.JPG/1024px-Pelican_in_flock.JPG</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/a/a1/Madan_kamdev_ruins.JPG</item>
+        <item>https://eclecticnortheast.in/wp-content/uploads/2016/01/Assam-State-Museum.jpg</item>
+        <item>https://www.groupouting.com/wp-content/uploads/2015/07/POBITORA-WILDLIFE-SANCTUARY-3.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/6/6c/Ranghar_-_Assam.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/8/80/Agnigarh_Hill,_Tezpur.JPG</item>
+        <item>https://mw2.google.com/mw-panoramio/photos/medium/55601025.jpg</item>
+        <item>http://sonitpur.gov.in/html/html/images/a.jpg</item>
+        <item>http://footage.framepool.com/shotimg/qf/307911463-wanariset-samboja-orangutan-colgar-bosque-tropical-lluvioso.jpg</item>
+        <item>http://www.bharatonline.com/assam/pics/ugratara-temple.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/7/7a/Mahabhairab_temple%2C_Tezpur.jpg</item>
+        <item>https://static2.tripoto.com/media/filter/l/img/15188/TripDocument/1443032909_purva_tirupati_sri_balaji_temple.jpg</item>
+        <item>http://www.travelspeak.in/assets/resources/Basistha-Temple-Guwahati-01.jpg</item>
+        <item>http://www.pilgrimaide.com/main-control/photos/Hayagriva%20Madhava%20Temple,%20Hajo,%20Guwahati_Kamrup_Assam.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/9/9a/Surya_Pahar_(7).jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/0/0b/Ahom_Raja%27s_Palace%2C_Garhgaon%2C_Sivasagar.JPG</item>
+        <item>http://photos.wikimapia.org/p/00/01/76/28/59_big.jpg</item>
+        <item>http://www.abhijna-emuseum.com/wp-content/uploads/2016/06/2016521124125.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/en/a/a3/Hari_Mandir_at_Nalbari.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/4/44/Main_gate_of_Sukapha_Samannay_Kshetra.jpg</item>
+        <item>https://cdn.shopify.com/s/files/1/0320/6661/files/lankeshwar-temple-guwahati-img3.jpg?232944955577110928</item>
+        <item>https://treasuredwheels.files.wordpress.com/2013/12/wp_20131215_053.jpg</item>
+        <item>https://mw2.google.com/mw-panoramio/photos/medium/1535433.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/1/1c/Digboi_Centenary_Museum_04.JPG</item>
     </string-array>
 
     <string-array name="assam_dance">
@@ -493,23 +604,81 @@
     </string-array>
 
     <string-array name="sikkim_tourist">
-        <item>sikkimt1</item>
-        <item>sikkimt2</item>
-        <item>sikkimt3</item>
-        <item>sikkimt4</item>
-        <item>sikkimt5</item>
-        <item>sikkimt6</item>
-        <item>sikkimt7</item>
+        <item>Gangtok</item>
+        <item>Yuksom</item>
+        <item>Tsomgo Lake</item>
+        <item>Nathula Pass</item>
+        <item>Pelling</item>
+        <item>Lachung</item>
+        <item>Ravangla</item>
+        <item>Rumtek Monastery</item>
+        <item>Namchi</item>
+        <item>Do-Drul Chorten</item>
+        <item>Jawaharlal Nehru Botanical Garden</item>
+        <item>Zuluk</item>
+        <item>Namgyal Institute of Tibetology</item>
+        <item>Yumthang Valley</item>
+        <item>Gurudongmar</item>
+    </string-array>
+
+    <string-array name="sikkim_tourist_images" formatted="false">
+        <item>http://s3.india.com/travel/wp-content/uploads/2014/09/gangtok.jpg</item>
+        <item>http://media.highontravel.com/photos/yuksom-homestays/5b2fde1e\-5a40\-4c1f-a34e-bf370c2cfdbb.jpg</item>
+        <item>https://media-cdn.tripadvisor.com/media/photo-s/01/ed/a6/d8/lake-tsomgo-the-footprint.jpg</item>
+        <item>https://www.darjeeling-tourism.com/darj_i000287.jpg</item>
+        <item>http://telihotels.com/blog/wp-content/uploads/2015/08/banner2.jpg</item>
+        <item>http://www.mytourideas.com/manage/files/gallery/hotels-154/709e7e53f191ba9b0c716cf2366be28b.jpg</item>
+        <item>http://www.east-himalaya.com/flashphotos/photos/5dfa70d14b10780038cf9ee135e35508.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/e/e5/Vikramjit-Kakati-Rumtek.jpg</item>
+        <item>http://www.sinclairshotels.com/assets/images/kalimpong/char-dham/Char-Dham-Overview.jpg</item>
+        <item>http://images.mapsofindia.com/india-tour/2014/05/do-drul-chorten-gangtok.jpg</item>
+        <item>http://images.mapsofindia.com/india-tour/newvolume/mapindia/india-tour/wp-content/blogs.dir/14/files/2013/07/nehru-botanical-garden-zabarwan-mountain.jpg</item>
+        <item>https://img2.holidayiq.com/blog/sites/default/files/styles/medium/public/zuluk2.jpg</item>
+        <item> http://m5.paperblog.com/i/83/839539/protecting-the-culture-of-tibet-namgyal-insti-T-XYLUF8.jpeg</item>
+        <item>http://www.morung.com/wp-content/uploads/2014/11/A_view_of_Yumthang_valley_Sikkim_India.jpg</item>
+        <item>https://unexplored.lonelyplanet.in/uploads/411/25453ab37149afd1eecaf33e9c7876d1.jpg</item>
     </string-array>
 
     <string-array name="sikkim_dance">
-        <item>sikkimd1</item>
-        <item>sikkimd2</item>
-        <item>sikkimd3</item>
-        <item>sikkimd4</item>
-        <item>sikkimd5</item>
-        <item>sikkimd6</item>
-        <item>sikkimd7</item>
+        <item>Susira</item>
+        <item>Ghana</item>
+        <item>Vandya- Instruments Of Percussion</item>
+        <item>Lu Khangthamo</item>
+        <item>Gha To Kito</item>
+        <item>Chi Rimu</item>
+        <item>Gnungmala Gnunghey</item>
+        <item>Rechungma</item>
+        <item>Be Yu Mista</item>
+        <item>Tashi Zaldha</item>
+        <item>Enchey Chaam</item>
+        <item>Kagyed Dance</item>
+        <item>Rumtek Chaam</item>
+        <item>Singhi Chham</item>
+        <item>Chu Faat Dance</item>
+        <item>Yak Chaam</item>
+        <item>Khukuri Dance</item>
+        <item>Maruni Dance</item>
+    </string-array>
+
+    <string-array name="sikkim_dance_images" formatted="false" >
+        <item>http://im.hunt.in/cg/sik/About/Profile/Culture/monasticorch.jpg</item>
+        <item>http://www.georgelumayag.com/uploads/7/6/4/6/764691/9766938.jpg?343</item>
+        <item>http://www.soundtravels.co.uk/upload/all/mi/MITP006.jpg</item>
+        <item>http://www.indianetzone.com/photos_gallery/80/Folk_Dances_of_Sikkim_1.jpg</item>
+        <item>http://gosikkim.in/images/sikkim-dance-05.jpg</item>
+        <item>http://gosikkim.in/images/sikkim-dance-07.jpg</item>
+        <item>http://gosikkim.in/images/sikkim-dance-02.jpg</item>
+        <item>http://www.dbuniversity.ac.in/location/img/sikkim/7.jpg</item>
+        <item>http://www.lotusspeech.ca/wp-content/uploads/2011/05/Rechungpa-3.jpg</item>
+        <item>https://sikkimtouristplaces.files.wordpress.com/2012/11/sikkim-tourist-places-dances.jpg</item>
+        <item>http://gosikkim.in/images/sikkim-dance-01.jpg</item>
+        <item>http://www.myvillage.in/wp-content/uploads/2016/02/Culture-of-Sikkim-Dances-of-Sikkim.jpg</item>
+        <item>http://www.indovacations.net/sikkim-tourism/Images/kagyed_dance.jpg</item>
+        <item>http://www.myvillage.in/wp-content/uploads/2016/02/Culture-of-Sikkim-Dances-of-Sikkim.jpg</item>
+        <item>http://www.nelive.in/sites/default/files/styles/article_block/public/10\-05\-15%20Narayanpur-%20Bihu%20celebration%20(1)_0.jpg?itok=Jsdhq8wi</item>
+        <item>http://www.nelive.in/sites/default/files/Chu%20Faat%20Dance%20by%20the%20Lepchas.jpg</item>
+        <item>https://i.ytimg.com/vi/iAvAtREb6uI/maxresdefault.jpg</item>
+        <item>https://i.ytimg.com/vi/6NN1xE8hw_Q/hqdefault.jpg</item>
     </string-array>
 
     <string-array name="sikkim_cuisine">
@@ -533,13 +702,31 @@
     </string-array>
 
     <string-array name="sikkim_festival">
-        <item>sikkimf1</item>
-        <item>sikkimf2</item>
-        <item>sikkimf3</item>
-        <item>sikkimf4</item>
-        <item>sikkimf5</item>
-        <item>sikkimf6</item>
-        <item>sikkimf7</item>
+        <item>Saga Dawa</item>
+        <item>Phang Lhbsol</item>
+        <item>Bumchu</item>
+        <item>Losoong</item>
+        <item>Dasain</item>
+        <item>Drupka Teshi</item>
+        <item>Hee Bermiok Tourism Festival</item>
+        <item>Crafts festival of Rabongla</item>
+        <item>Tharpu Monsoon Festival</item>
+        <item>Lhabab Duchen</item>
+        <item>Namchi Mahotsav</item>
+    </string-array>
+
+    <string-array name="sikkim_festival_images" formatted="false">
+        <item>http://im.hunt.in/cg/sik/About/Profile/Culture/fes.jpg</item>
+        <item>http://questhimalaya.com/images/252-pang-kz.jpg</item>
+        <item>http://gobengal.com/wp-content/uploads/2015/07/Bumchu-Festival.jpg</item>
+        <item>https://s-media-cache-ak0.pinimg.com/736x/3e/57/be/3e57be0c1a26eb9540880a30dd62cd1c.jpg</item>
+        <item>http://www.trekkingagencynepal.com/pagegallery/dashain-festival-tour14.jpg</item>
+        <item>http://www.travelwhistle.com/wp-content/uploads/2016/06/Drupka-Teshi-Festival-Muguthang-Sikkim-India.jpg</item>
+        <item>https://pimg.tradeindia.com/02702186/b/1/Hee-Bermiok-Tour-Services-.jpg</item>
+        <item>https://www.oyorooms.com/holiday-packages/wp-content/uploads/2013/05/91.jpg</item>
+        <item>http://blogbox.indianeagle.com//wp-content/uploads/2014/05/pang-lhabsol-sikkim-festivals.jpg</item>
+        <item>http://www.tibetlhasatour.com/images/tibetan-festival.jpg</item>
+        <item>http://www.himalaya-trip.com/images/destinations/namchi.jpg</item>
     </string-array>
 
     <string-array name="tripura_tourist">
