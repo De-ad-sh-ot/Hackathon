@@ -17,14 +17,14 @@ public class States extends AppCompatActivity {
     private String[] state_name;
     private String[] capital_name;
     private String[] state_images={
-      "https://tmi2-tourmyindiapvtlt.netdna-ssl.com/blog/wp-content/uploads/2015/01/pelling-kanchendzonga.jpg",
-            "https://tmi2-tourmyindiapvtlt.netdna-ssl.com/blog/wp-content/uploads/2015/01/pelling-kanchendzonga.jpg",
-            "https://tmi2-tourmyindiapvtlt.netdna-ssl.com/blog/wp-content/uploads/2015/01/pelling-kanchendzonga.jpg",
-              "https://tmi2-tourmyindiapvtlt.netdna-ssl.com/blog/wp-content/uploads/2015/01/pelling-kanchendzonga.jpg",
-              "https://tmi2-tourmyindiapvtlt.netdna-ssl.com/blog/wp-content/uploads/2015/01/pelling-kanchendzonga.jpg",
-              "https://tmi2-tourmyindiapvtlt.netdna-ssl.com/blog/wp-content/uploads/2015/01/pelling-kanchendzonga.jpg",
-              "https://tmi2-tourmyindiapvtlt.netdna-ssl.com/blog/wp-content/uploads/2015/01/pelling-kanchendzonga.jpg",
-              "https://tmi2-tourmyindiapvtlt.netdna-ssl.com/blog/wp-content/uploads/2015/01/pelling-kanchendzonga.jpg"
+      "https://greenerpasturesind.files.wordpress.com/2012/10/arunachal-pradesh-ziro-apatani-daporijo-subansiri-valley-tagin-tribe11.jpg",
+            "http://www.mapsofindia.com/assam/assam-images/aswaklanta-temple.jpg",
+            "http://reviewne.com/wp-content/uploads/2014/08/Loktak-Lake-1024x600.jpg",
+              "http://im.hunt.in/cg/meg/About/Profile/Culture/dance1.jpg",
+              "http://travelthemes.in/wp-content/uploads/2016/04/54cbf78f998d4de83ba396b5_image.jpg",
+              "http://www.mapsofindia.com/nagaland/nagaland-images/morung-of-pochury-tribe.jpg",
+              "http://vasantkamal.com/wp-content/uploads/2015/05/Sikkim-Buddha-park.jpg",
+              "http://www.mybudgettrip.com/images/Tripura-banner.jpg"
     };
 
     @Override
