@@ -14,6 +14,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import infotech.hackathon.maps.MapsActivity;
+
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -127,7 +129,8 @@ public class MainActivity extends AppCompatActivity
             startActivity(i);
 
         } else if (id == R.id.NewsFeed) {
-
+            Intent i=new Intent(MainActivity.this,newsFeed.class);
+            startActivity(i);
         } else if (id == R.id.ExploreTheNorthEast) {
             Intent i=new Intent(MainActivity.this,States.class);
             startActivity(i);
@@ -137,6 +140,12 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.ContactUs) {
 
         } else if (id == R.id.AboutandHelp) {
+
+        }
+        else if (id == R.id.NearebyFacilities) {
+
+            Intent k=new Intent(MainActivity.this,MapsActivity.class);
+            startActivity(k);
 
         }
 

@@ -177,33 +177,6 @@
     </string-array>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!--String arrays related to String_detail_detail.java file-->
     <string-array name="state_detail">
         <item>Tourist Spots</item>
@@ -791,6 +764,42 @@
         <item>tripuraf6</item>
         <item>tripuraf7</item>
     </string-array>
+
+    <string name="title_activity_map_nearby_facilities">Map</string>
+
+    <string name="hello_world">Hello world!</string>
+        <string name="str_btn_find">Find</string>
+
+        <string-array name="place_type">
+            <item>SelectNearbyPlaces</item>
+            <item>airport</item>
+            <item>atm</item>
+            <item>bank</item>
+            <item>bus_station</item>
+            <item>church</item>
+            <item>doctor</item>
+            <item>hospital</item>
+            <item>mosque</item>
+            <item>movie_theater</item>
+            <item>hindu_temple</item>
+            <item>restaurant</item>
+        </string-array>
+
+        <string-array name="place_type_name">
+            <item>SelectNearbyPlaces</item>
+            <item>Airport</item>
+            <item>ATM</item>
+            <item>Bank</item>
+            <item>Bus Station</item>
+            <item>Church</item>
+            <item>Doctor</item>
+            <item>Hospital</item>
+            <item>Mosque</item>
+            <item>Movie Theater</item>1
+            <item>Hindu Temple</item>
+            <item>Restaurant</item>
+        </string-array>
+
    <string name="hint_email">Email</string>
     <string name="hint_password">Password</string>
     <string name="hint_name">Fullname</string>
@@ -801,6 +810,5 @@
     <string name="welcome">Welcome</string>
     <string name="btn_logout">LOGOUT</string>
     <string name="name">Fullname</string>
-
 
 </resources>
