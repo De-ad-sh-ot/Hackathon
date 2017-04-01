@@ -10,6 +10,9 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ImageView;
 
+import infotech.hackathon.login.SignInActivity;
+import infotech.hackathon.login.SignUpActivity;
+
 public class SplashActivity extends AppCompatActivity {
 
     private ImageView img;
@@ -39,7 +42,7 @@ public class SplashActivity extends AppCompatActivity {
                         waited += 100;
                     }
                     Intent intent = new Intent(SplashActivity.this,
-                            RegisterUser.class);
+                            SignInActivity.class);
                     intent.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                     startActivity(intent);
                     SplashActivity.this.finish();
