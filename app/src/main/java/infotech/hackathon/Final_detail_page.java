@@ -1,5 +1,7 @@
 package infotech.hackathon;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.design.widget.FloatingActionButton;
@@ -17,6 +19,7 @@ public class Final_detail_page extends AppCompatActivity {
     private String pageTitle;
     private String pageContent;
     private String pageImage;
+    private String fabLocation;
     private TextView textView;
     private ImageView imageView;
     private int ResId;
@@ -42,6 +45,7 @@ public class Final_detail_page extends AppCompatActivity {
         if (ActivityId == 1) {
             pageTitle = TopDestination.names[ResId];
             pageImage = TopDestination.IMAGES[ResId];
+            fabLocation = TopDestination.locations[ResId];
 
             textView = (TextView) findViewById(R.id.textView_content);
             textView.setText(pageContent);
@@ -74,8 +78,11 @@ public class Final_detail_page extends AppCompatActivity {
             fab.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                            .setAction("Action", null).show();
+                    Intent intent=new Intent(Intent.ACTION_VIEW);
+                    intent.setData(Uri.parse(fabLocation));
+                    Intent intentChooser=Intent.createChooser(intent,"Launch Maps");
+                    startActivity(intentChooser);
+
                 }
             });
         }

@@ -11,8 +11,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.squareup.picasso.Callback;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
@@ -37,16 +40,16 @@ public class CommonRecyclerViewAdapter extends RecyclerView.Adapter {
 
     @Override
     public CustomRecycleViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        if(id==1)
+        if(id==0)
         {
             View view = LayoutInflater.from(activity)
-                    .inflate(R.layout.listview_item2, parent, false);
+                    .inflate(R.layout.listview_item1, parent, false);
             Holder dataObjectHolder = new Holder(view);
             return dataObjectHolder;
         }
-        else {
+        else{
             View view = LayoutInflater.from(activity)
-                    .inflate(R.layout.listview_item1, parent, false);
+                    .inflate(R.layout.listview_item2, parent, false);
             Holder dataObjectHolder = new Holder(view);
             return dataObjectHolder;
         }
@@ -62,14 +65,25 @@ public class CommonRecyclerViewAdapter extends RecyclerView.Adapter {
         opts.inJustDecodeBounds = false;
 
         myHolder.tv1.setText(arrayList_bean.get(position).getTextView1());
+        if(id==0)
         myHolder.tv2.setText(arrayList_bean.get(position).getTextView2());
+
+        myHolder.imageProgressBar.setVisibility(View.VISIBLE);
 
         Picasso.with(activity)
                 .load(arrayList_bean.get(position).getImageView())
-                .error(R.drawable.ic_empty)
-                .placeholder(R.drawable.ic_launcher)
                 .fit()
-                .into((myHolder.images));
+                .into(myHolder.images, new Callback() {
+                    @Override
+                    public void onSuccess() {
+                        myHolder.imageProgressBar.setVisibility(View.GONE);
+                    }
+
+                    @Override
+                    public void onError() {
+                        myHolder.imageProgressBar.setVisibility(View.GONE);
+                    }
+                });
     }
 
     @Override
@@ -81,11 +95,14 @@ public class CommonRecyclerViewAdapter extends RecyclerView.Adapter {
         private ImageView images;
         private TextView tv1;
         private TextView tv2;
+        private ProgressBar imageProgressBar;
 
         public Holder(View itemView) {
             super(itemView);
             images = (ImageView) itemView.findViewById(R.id.ivItemGridImage);
+            imageProgressBar = (ProgressBar) itemView.findViewById(R.id.image_progress_bar);
             tv1 = (TextView) itemView.findViewById(R.id.tv_1);
+            if(id==0)
             tv2 = (TextView) itemView.findViewById(R.id.tv_2);
         }
     }

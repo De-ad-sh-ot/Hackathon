@@ -46,7 +46,10 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".LoginActivity" />
-        <activity android:name=".TopDestination" />
+        <activity android:name=".newsFeed" />
+
+        <activity android:name=".TopDestination" /><activity android:name=".RegisterUser" />
+
         <activity
             android:name=".Final_detail_page"
             android:label="@string/title_activity_destination_detail"

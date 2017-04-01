@@ -62,6 +62,7 @@ public class State_detail_detail extends AppCompatActivity {
                 {
                     case 0:
                         state_detail_detail_name=getResources().getStringArray(R.array.assam_tourist);
+                        state_detail_detail_images=getResources().getStringArray(R.array.assam_tourist_images);
                         break;
                     case 1:
                         state_detail_detail_name=getResources().getStringArray(R.array.assam_festival);
@@ -175,12 +176,15 @@ public class State_detail_detail extends AppCompatActivity {
                 {
                     case 0:
                         state_detail_detail_name=getResources().getStringArray(R.array.sikkim_tourist);
+                        state_detail_detail_images=getResources().getStringArray(R.array.sikkim_tourist_images);
                         break;
                     case 1:
                         state_detail_detail_name=getResources().getStringArray(R.array.sikkim_festival);
+                        state_detail_detail_images=getResources().getStringArray(R.array.sikkim_festival_images);
                         break;
                     case 2:
                         state_detail_detail_name=getResources().getStringArray(R.array.sikkim_dance);
+                        state_detail_detail_images=getResources().getStringArray(R.array.sikkim_dance_images);
                         break;
                     case 3:
                         state_detail_detail_name=getResources().getStringArray(R.array.sikkim_cuisine);
@@ -232,7 +236,7 @@ public class State_detail_detail extends AppCompatActivity {
 
         recyclerViewMain.setLayoutManager(mLayoutManager);
 
-        adapter = new CommonRecyclerViewAdapter(this, arrayList_state, 0);
+        adapter = new CommonRecyclerViewAdapter(this, arrayList_state, 1);
 
         recyclerViewMain.setAdapter(adapter);
 
