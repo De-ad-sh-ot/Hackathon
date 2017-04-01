@@ -46,30 +46,30 @@
     <string name="tripura">Tripura</string>
 
     <string-array name="topdestination_location" formatted="false">
-        <item>geo:26.5775,93.1711</item>
-        <item>geo:27.5867,91.8577</item>
-        <item>geo:27.3869,88.8311</item>
-        <item>geo:27.8000000,95.5000000</item>
-        <item>geo:27.7949,92.3876</item>
-        <item>geo:27.5895,91.9833</item>
-        <item>geo:25.2717,91.7308</item>
-        <item>geo:25.5021,92.3419</item>
-        <item>geo:27.7221,91.8254</item>
-        <item>geo:27.416786,88.582944</item>
-        <item>geo:27.3066,88.3640</item>
-        <item>geo:23.3242,92.1312</item>
-        <item>geo:26.570,94.100</item>
-        <item>geo:24.7980,93.9482</item>
-        <item>geo:25.5956,94.7931</item>
-        <item>geo:27.5035,92.1044</item>
-        <item>geo:25.241711,91.679032</item>
-        <item>geo:25.2443,91.7384</item>
-        <item>geo:26.20073,91.74683</item>
-        <item>geo:</item>
-        <item>geo:</item>
-        <item>geo:25.6704,94.1095</item>
-        <item>geo:25.8455682,94.1769749</item>
-        <item>geo:27.3198,88.2400</item>
+        <item>26.5775,93.1711</item>
+        <item>27.5867,91.8577</item>
+        <item>27.3869,88.8311</item>
+        <item>27.8000000,95.5000000</item>
+        <item>27.7949,92.3876</item>
+        <item>27.5895,91.9833</item>
+        <item>25.2717,91.7308</item>
+        <item>25.5021,92.3419</item>
+        <item>27.7221,91.8254</item>
+        <item>27.416786,88.582944</item>
+        <item>27.3066,88.3640</item>
+        <item>23.3242,92.1312</item>
+        <item>26.570,94.100</item>
+        <item>24.7980,93.9482</item>
+        <item>25.5956,94.7931</item>
+        <item>27.5035,92.1044</item>
+        <item>25.241711,91.679032</item>
+        <item>25.2443,91.7384</item>
+        <item>26.20073,91.74683</item>
+        <item></item>
+        <item></item>
+        <item>25.6704,94.1095</item>
+        <item>25.8455682,94.1769749</item>
+        <item>27.3198,88.2400</item>
     </string-array>
 
     <string-array name="topdestination_places" formatted="false">
@@ -279,6 +279,10 @@
         <item>https://upload.wikimedia.org/wikipedia/commons/1/1c/Digboi_Centenary_Museum_04.JPG</item>
     </string-array>
 
+    <string-array name="assam_tourist_content" formatted="false">
+
+    </string-array>
+
     <string-array name="assam_dance">
         <item>Bihu Dances</item>
         <item>Satriya Nritya</item>
@@ -295,6 +299,15 @@
         <item>http://2.bp.blogspot.com/-qH7wYjNvCQI/TeNFlSjz1wI/AAAAAAAAAIo/W3z5Gk1-NTE/s1600/jhumur_dance.jpg</item>
         <item>http://naturalholidays.in/images/bodo-tribe.jpg</item>
         <item>https://i1.wp.com/jungleideas.files.wordpress.com/2016/01/the-ali-ai-ligang-festival-of-the-mishings-in-assam.jpg?w=338&amp;h=338&amp;crop=1&amp;ssl=1</item>
+    </string-array>
+
+    <string-array name="assam_dance_content" formatted="false">
+        <item>Bihu is the most popular folk dance of Assam. The people of Assam are very proud of it and rightly so. Except Bhangra no other folk dance in India can compete with the rhythmic exuberance of Bihu. Bihu dances performed by young boys and girls characterised by brisk stepping, flinging and flipping of hands and swaying of hips represents youthful passion, reproductive urge and \'Joie-de-vivre\'.</item>
+        <item>Satriya, The Beautiful Classic Dance of Assam. During winter (November- February) the best place to see the Satriya dance is Guwahati. A tourist to Assam during winter would do well to find out if their visits coincide with the annual Satriya Dance festival organised by one of the following institutions: Puspanjall Cultural Academy, Sangeet Satra, Srimanta Sankardev Sangha and Satra Mahasabha. The Satriya Dance festival organised by these institutions would normally have all the facts of this dance including Dhemalis by Goyan Bayans. Apart from this, many institutions show Satriya Dance on the make shift open stages during Bihu festival (April May) The lively and colourful folk dances of Assam.</item>
+        <item>Developed by a well known Satriya artist, Narahari Burha Bbakat, Bhor Tal Nritya is an extension of Sankari culture. Six to ten dancers equipped with cyrnbols perform this dance to the first bit of \'7hiya Nom" and produces a good number of attractive formations displaying the cymbols. The dance can be seen during festive occasions in and around Barpeta and Guwahati.</item>
+        <item>In the passage of more than a hundred years of their settlement in Assam the tea tribes have developed a synthesised form of dance called "Chah Baganar Jumur Nach". (Jumur dance of tea garden). This dance is performed by girls and boys together, sometimes by the girls alone, with precision of foot work while clasping tightly each others waist. This is a beautiful dance to watch. A visitor to any tea gardens can easily see this dance.</item>
+        <item>Bodo community has many folk dances to boast. Among them the best and the most attractive is the Bagurumba dance. This is mainly a formation dance with slow steps and outstretched hands. About a score of girls dressed in most colourful attire perform this dance to the accompany- merit of Bodo traditional musical instruments. A tourist in Assam can see this dance in the Bodo inhabited areas of Kokrajhar, Bongaigaon, Nalbari, Darrang and Sonitpur districts.</item>
+        <item>Mishing community of Assam has a festival caged All Ai Ligang in which they perform dances for making an offering to their deities. Mishing\'s B;ihu can be seen in North Eastern part of Assam i.e. Sonitpur and Lakhimpur districts.</item>
     </string-array>
 
     <string-array name="assam_cuisine" formatted="false">

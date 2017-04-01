@@ -79,7 +79,7 @@ public class Final_detail_page extends AppCompatActivity {
                 @Override
                 public void onClick(View view) {
                     Intent intent=new Intent(Intent.ACTION_VIEW);
-                    intent.setData(Uri.parse(fabLocation));
+                    intent.setData(Uri.parse("geo:<"+fabLocation+">?q=<"+fabLocation+">"+(pageTitle)));
                     Intent intentChooser=Intent.createChooser(intent,"Launch Maps");
                     startActivity(intentChooser);
 
