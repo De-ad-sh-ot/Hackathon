@@ -18,6 +18,10 @@
             android:id="@+id/Reviews"
             android:icon="@drawable/ic_menu_manage"
             android:title="Reviews" />
+        <item
+            android:id="@+id/NearebyFacilities"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="NearebyFacilities" />
     </group>
 
     <item android:title="other">
