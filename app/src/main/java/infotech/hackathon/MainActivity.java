@@ -1,13 +1,16 @@
 package infotech.hackathon;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
+import android.support.v7.app.AlertDialog;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -25,6 +28,10 @@ import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+
+import infotech.hackathon.login.SignInActivity;
 import infotech.hackathon.maps.MapsActivity;
 
 import static infotech.hackathon.R.drawable.content_main1;
@@ -37,10 +44,29 @@ public class MainActivity extends AppCompatActivity
             "http://www.rainbowtravels.in/images/North%20East%203.jpg",
             "http://indiaspend.com/wp-content/uploads/2012/06/hornbill-festival-COVER-STORY_WIDTH-414px_HT-299px.jpg"
     };
+    private FirebaseAuth.AuthStateListener authListener;
+    private FirebaseAuth auth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //get firebase auth instance
+        auth = FirebaseAuth.getInstance();
+        //get current user
+            authListener = new FirebaseAuth.AuthStateListener() {
+                @Override
+                public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
+                    FirebaseUser user = firebaseAuth.getCurrentUser();
+                    if (user == null) {
+            // user auth state is changed - user is null
+            // launch login activity
+                        startActivity(new Intent(MainActivity.this, SignInActivity.class)
+                                .addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK)
+                                .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
+                        finish();
+                    }
+                }
+            };
         setContentView(R.layout.activity_main);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -130,10 +156,35 @@ public class MainActivity extends AppCompatActivity
                 i8.putExtra("ResId",7);
                 startActivity(i8);
                 break;
+
+            case R.id.logout:
+
+                AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+                builder
+                    .setMessage(R.string.confirmation_msg)
+                    .setTitle(R.string.btn_sign_out)
+                    .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            signOut();
+                        }})
+                    .setNegativeButton(android.R.string.no, null);
+                AlertDialog dialog = builder.create();
+                dialog.show();
+
             default:
                 break;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    //sign out method
+     public void signOut() {
+         auth.signOut();
+             startActivity(new Intent(MainActivity.this, SignInActivity.class)
+                     .addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK)
+                     .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
+         finish();
     }
 
     @SuppressWarnings("StatementWithEmptyBody")
@@ -171,5 +222,18 @@ public class MainActivity extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+        auth.addAuthStateListener(authListener);
+    }
+
+    @Override public void onStop() {
+        super.onStop();
+        if (authListener != null) {
+            auth.removeAuthStateListener(authListener);
+        }
     }
 }
