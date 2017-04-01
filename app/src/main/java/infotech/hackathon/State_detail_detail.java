@@ -232,7 +232,7 @@ public class State_detail_detail extends AppCompatActivity {
 
         recyclerViewMain.setLayoutManager(mLayoutManager);
 
-        adapter = new CommonRecyclerViewAdapter(this, arrayList_state, 0);
+        adapter = new CommonRecyclerViewAdapter(this, arrayList_state, 1);
 
         recyclerViewMain.setAdapter(adapter);
 

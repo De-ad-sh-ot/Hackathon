@@ -37,16 +37,16 @@ public class CommonRecyclerViewAdapter extends RecyclerView.Adapter {
 
     @Override
     public CustomRecycleViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        if(id==1)
+        if(id==0)
         {
             View view = LayoutInflater.from(activity)
-                    .inflate(R.layout.listview_item2, parent, false);
+                    .inflate(R.layout.listview_item1, parent, false);
             Holder dataObjectHolder = new Holder(view);
             return dataObjectHolder;
         }
-        else {
+        else{
             View view = LayoutInflater.from(activity)
-                    .inflate(R.layout.listview_item1, parent, false);
+                    .inflate(R.layout.listview_item2, parent, false);
             Holder dataObjectHolder = new Holder(view);
             return dataObjectHolder;
         }
@@ -62,6 +62,7 @@ public class CommonRecyclerViewAdapter extends RecyclerView.Adapter {
         opts.inJustDecodeBounds = false;
 
         myHolder.tv1.setText(arrayList_bean.get(position).getTextView1());
+        if(id==0)
         myHolder.tv2.setText(arrayList_bean.get(position).getTextView2());
 
         Picasso.with(activity)
@@ -86,6 +87,7 @@ public class CommonRecyclerViewAdapter extends RecyclerView.Adapter {
             super(itemView);
             images = (ImageView) itemView.findViewById(R.id.ivItemGridImage);
             tv1 = (TextView) itemView.findViewById(R.id.tv_1);
+            if(id==0)
             tv2 = (TextView) itemView.findViewById(R.id.tv_2);
         }
     }
