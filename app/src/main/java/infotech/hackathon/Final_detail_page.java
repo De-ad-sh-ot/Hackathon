@@ -24,6 +24,7 @@ public class Final_detail_page extends AppCompatActivity {
     private ImageView imageView;
     private int ResId;
     private int ActivityId;
+    FloatingActionButton fab;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,6 +47,7 @@ public class Final_detail_page extends AppCompatActivity {
             pageTitle = TopDestination.names[ResId];
             pageImage = TopDestination.IMAGES[ResId];
             fabLocation = TopDestination.locations[ResId];
+            pageContent=TopDestination.content[ResId];
 
             textView = (TextView) findViewById(R.id.textView_content);
             textView.setText(pageContent);
@@ -61,6 +63,7 @@ public class Final_detail_page extends AppCompatActivity {
             {
                 pageTitle = State_detail_detail.state_detail_detail_name[ResId];
                 pageImage = State_detail_detail.state_detail_detail_images[ResId];
+                pageContent=State_detail_detail.state_detail_detail_content[ResId];
 
                 textView = (TextView) findViewById(R.id.textView_content);
                 textView.setText(pageContent);
@@ -72,9 +75,12 @@ public class Final_detail_page extends AppCompatActivity {
                         .into(imageView);
 
                 setTitle(pageTitle);
+
+                if(State_detail_detail.ResId_state_detail!=0)
+                    fab.hide();
             }
 
-            FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+            fab = (FloatingActionButton) findViewById(R.id.fab);
             fab.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
