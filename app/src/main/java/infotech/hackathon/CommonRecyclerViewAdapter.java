@@ -47,9 +47,16 @@ public class CommonRecyclerViewAdapter extends RecyclerView.Adapter {
             Holder dataObjectHolder = new Holder(view);
             return dataObjectHolder;
         }
-        else{
+        else if(id==1){
             View view = LayoutInflater.from(activity)
                     .inflate(R.layout.listview_item2, parent, false);
+            Holder dataObjectHolder = new Holder(view);
+            return dataObjectHolder;
+        }
+        else
+        {
+            View view = LayoutInflater.from(activity)
+                    .inflate(R.layout.listview_item3, parent, false);
             Holder dataObjectHolder = new Holder(view);
             return dataObjectHolder;
         }
@@ -64,9 +71,13 @@ public class CommonRecyclerViewAdapter extends RecyclerView.Adapter {
 //        BitmapFactory.decodeFile(arrayList_bean.get(position).getImageView(), opts);
 //        opts.inJustDecodeBounds = false;
 
-        myHolder.tv1.setText(arrayList_bean.get(position).getTextView1());
-        if(id==0)
-        myHolder.tv2.setText(arrayList_bean.get(position).getTextView2());
+        if(id==0) {
+            myHolder.tv1.setText(arrayList_bean.get(position).getTextView1());
+            myHolder.tv2.setText(arrayList_bean.get(position).getTextView2());
+        }
+        if (id == 1) {
+            myHolder.tv1.setText(arrayList_bean.get(position).getTextView1());
+        }
 
         myHolder.imageProgressBar.setVisibility(View.VISIBLE);
 
@@ -101,9 +112,14 @@ public class CommonRecyclerViewAdapter extends RecyclerView.Adapter {
             super(itemView);
             images = (ImageView) itemView.findViewById(R.id.ivItemGridImage);
             imageProgressBar = (ProgressBar) itemView.findViewById(R.id.image_progress_bar);
-            tv1 = (TextView) itemView.findViewById(R.id.tv_1);
-            if(id==0)
-            tv2 = (TextView) itemView.findViewById(R.id.tv_2);
+            if(id==0) {
+                tv1 = (TextView) itemView.findViewById(R.id.tv_1);
+                tv2 = (TextView) itemView.findViewById(R.id.tv_2);
+            }
+            if(id==1)
+            {
+                tv1 = (TextView) itemView.findViewById(R.id.tv_1);
+            }
         }
     }
 }

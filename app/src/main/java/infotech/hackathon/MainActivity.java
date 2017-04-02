@@ -2,48 +2,49 @@ package infotech.hackathon;
 
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.view.LayoutInflater;
 import android.support.v7.app.AlertDialog;
-import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.ViewGroup;
-import android.widget.ImageView;
-
-import com.squareup.picasso.Callback;
-import com.squareup.picasso.Picasso;
-
-import java.util.ArrayList;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
+import java.util.ArrayList;
+
 import infotech.hackathon.login.SignInActivity;
 import infotech.hackathon.maps.MapsActivity;
 
-import static infotech.hackathon.R.drawable.content_main1;
-
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+//
+//    private String[] images={"https://thechroniclesofacreativemind.files.wordpress.com/2012/11/ne.jpg",
+//            "http://m.sumeratravel.com/images/north-east.jpg",
+//            "http://www.rainbowtravels.in/images/North%20East%203.jpg",
+//            "http://indiaspend.com/wp-content/uploads/2012/06/hornbill-festival-COVER-STORY_WIDTH-414px_HT-299px.jpg"
+//    };
 
-    private String[] images={"https://thechroniclesofacreativemind.files.wordpress.com/2012/11/ne.jpg",
-            "http://m.sumeratravel.com/images/north-east.jpg",
-            "http://www.rainbowtravels.in/images/North%20East%203.jpg",
-            "http://indiaspend.com/wp-content/uploads/2012/06/hornbill-festival-COVER-STORY_WIDTH-414px_HT-299px.jpg"
+    private RecyclerView recyclerViewMain;
+    private LinearLayoutManager mLayoutManager;
+    CommonRecyclerViewAdapter adapter;
+    private String[] images={
+        "http://thaitravelmart.com/uploads/tourism_news/05February2016_08.jpg",
+        "https://image.slidesharecdn.com/north-east-india-110708020221-phpapp01/95/north-east-india-tourism-2-728.jpg?cb=1310090758",
+            "http://4.bp.blogspot.com/-wKpyv73Yg7U/UNKn09ODrOI/AAAAAAAAABw/R3bhvOcdO98/s1600/North-East-logo.JPG",
+        "https://image.slidesharecdn.com/north-east-india-110708020221-phpapp01/95/north-east-india-tourism-3-728.jpg?cb=1310090758",
+        "http://www.thomascook.in/tcportal/images/holiday/holidayStaticPages/HolidayPhotoMaster/UN15108979.jpg",
+        "https://image.slidesharecdn.com/north-east-india-110708020221-phpapp01/95/north-east-india-tourism-4-728.jpg?cb=1310090758"
     };
+
     private FirebaseAuth.AuthStateListener authListener;
     private FirebaseAuth auth;
 
@@ -68,6 +69,24 @@ public class MainActivity extends AppCompatActivity
                 }
             };
         setContentView(R.layout.activity_main);
+        recyclerViewMain = (RecyclerView) findViewById(R.id.recyclerView);
+
+        ArrayList<Bean> arrayList_state=new ArrayList<>();
+
+        for(int i=0; i<images.length;i++) {
+            Bean bean = new Bean();
+            bean.setImageView(images[i]);
+            arrayList_state.add(bean);
+        }
+
+        recyclerViewMain.setHasFixedSize(true);
+        mLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
+
+        recyclerViewMain.setLayoutManager(mLayoutManager);
+
+        adapter = new CommonRecyclerViewAdapter(this, arrayList_state, 2);
+
+        recyclerViewMain.setAdapter(adapter);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -81,12 +100,12 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        ImageView imageView=(ImageView) (findViewById(R.id.imageView1));
+//        ImageView imageView=(ImageView) (findViewById(R.id.imageView1));
 
-        Picasso.with(this)
-                .load(images[1])
-                .fit()
-                .into(imageView);
+//        Picasso.with(this)
+//                .load(images[1])
+//                .fit()
+//                .into(imageView);
 //
 //        imageView.setImageResource(R.drawable.north_east);
     }

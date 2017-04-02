@@ -41,6 +41,7 @@ public class State_detail_detail extends AppCompatActivity {
                 {
                     case 0:
                         state_detail_detail_name=getResources().getStringArray(R.array.arunachal_tourist);
+                        state_detail_detail_images=getResources().getStringArray(R.array.arunachal_tourist_images);
                         break;
                     case 1:
                         state_detail_detail_name=getResources().getStringArray(R.array.arunachal_festival);

@@ -507,14 +507,69 @@ In a beautiful hillock surrounded by amazing beauty and greenery, is situated a 
         <item>manipurf7</item>
     </string-array>
 
-    <string-array name="arunachal_tourist">
-        <item>apt1</item>
-        <item>apt2</item>
-        <item>apt3</item>
-        <item>apt4</item>
-        <item>apt5</item>
-        <item>apt6</item>
-        <item>apt7</item>
+    <string-array name="arunachal_tourist" formatted="false">
+        <item>Sela Pass</item>
+        <item> Tawang Monastrey</item>
+        <item> Bum La Pass</item>
+        <item> Madhuri Lake</item>
+        <item> Tawang War Memorial</item>
+        <item> Jaswant Garh</item>
+        <item> Nuranang Falls</item>
+        <item> Bomdila Monastery</item>
+        <item> Pangateng Tso Lake</item>
+        <item> Sangti Valley</item>
+        <item> Ganga Lake</item>
+        <item> Jawaharlal Nehru State Museum</item>
+        <item> Buddha Temple</item>
+        <item> Urgelling Gompa</item>
+        <item> Bomdila View Point</item>
+        <item> Nagula Lake</item>
+        <item> Gompa</item>
+        <item> Dirang Dzong Fort</item>
+        <item> Gorichen Peak</item>
+        <item> Indira Gandhi Park</item>
+        <item> Ita Fort</item>
+        <item> Eagle Nest Wildlife Sanctuary</item>
+        <item> Tarin Fish Farm</item>
+        <item> Urguelling Monastery</item>
+        <item> Brahma-dung-chung Ani Gompa</item>
+        <item> Gyangong Ani Gompa</item>
+        <item> Gorsam Chorten</item>
+        <item> Sally Lake</item>
+        <item> Shiva Linga</item>
+    </string-array>
+
+    <string-array name="arunachal_tourist_images" formatted="false">
+        <item>https://photos.travelblog.org/Photos/139771/592251/f/6018164-Sela_Pass_Lake-0.jpg</item>
+        <item> https://c1.staticflickr.com/5/4055/4313786857_0a3f00d61d_b.jpg</item>
+        <item> https://static2.tripoto.com/media/filter/t/img/9724/SpotDocument/164.jpg</item>
+        <item> http://getoye.com/wp-content/uploads/2013/07/Madhuri-Lake-1.jpg</item>
+        <item> http://www.ijdreamvacation.com/blog/wp-content/uploads/2014/01/634983673736704124_1694_tawang.jpg</item>
+        <item> https://konilifestyle.files.wordpress.com/2013/12/dsc_7450.jpg</item>
+        <item> http://2.bp.blogspot.com/-EkSrFRin4og/VAXcac2JfEI/AAAAAAAAd60/IyIY8xrCH5A/s1600/nuranang-falls6.jpg</item>
+        <item> https://media-cdn.tripadvisor.com/media/photo-s/09/38/80/02/bomdila-monastery.jpg</item>
+        <item> https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Pangong_Tso_wide.jpg/600px-Pangong_Tso_wide.jpg</item>
+        <item> http://mw2.google.com/mw-panoramio/photos/medium/82116302.jpg</item>
+        <item> https://img1.holidayiq.com/photos/sh/shareiq\-1310205512\-011632-jpg-destreviewimages\-619x240\-1324604964-cropped.jpg</item>
+        <item> http://3.bp.blogspot.com/-4NX7dHAvd1s/UR4jERYd2LI/AAAAAAAAAgA/5U7rAtv9T7U/s1600/kongmu-Kham+or+Golden+Pagoda.jpg</item>
+        <item> http://www.tourismguideindia.com/images/Arunachal%20Pradesh/Itanagar/Jawaharlal%20Nehru%20Museum.jpg</item>
+        <item> https://i.ytimg.com/vi/MzCTchCy7Aw/maxresdefault.jpg</item>
+        <item> http://images.mapsofindia.com/india-tour/newvolume/mapindia/india-tour/wp-content/blogs.dir/11/files/2013/04/urgelling-gompa.jpg</item>
+        <item> https://img2.holidayiq.com/photos/bo/Bomdila-Photos-View-of-greater-eastern-Himalayas-from-Bomdila-top-Bomdila\-7583\-1-JPG-destreviewimages\-510x338\-1324601977.JPG</item>
+        <item> https://www.beautyofindianhimalayas.com/uploads/place-gallery/thumb/545368_1446740145.jpeg</item>
+        <item> http://images.mapsofindia.com/india-tour/newvolume/mapindia/india-tour/wp-content/blogs.dir/11/files/2013/04/stupa-gompa-itanagar.jpg</item>
+        <item> http://images.tripsbank.com/public/upload/destinations/3973/large/Dirang%20Dzong%20(Fort)_871.jpg</item>
+        <item> http://arunachalpra.desh.mobi/image-of/gorichen-peak-Arunachal-Pradesh.jpg</item>
+        <item> https://www.holidify.com/images/compressed/3771.jpg</item>
+        <item> https://pasighat.files.wordpress.com/2012/10/itafort5.jpg</item>
+        <item> http://www.nelive.in/sites/default/files/Eagle%20Nest%20Wildlife%20Sanctuary.png</item>
+        <item> https://2.bp.blogspot.com/-aqmKGRr8Gjs/Vx8Hl4zaJKI/AAAAAAAAALs/DoQRA2y7bhoGTyNsb7AEdRlvkgjxSFRRACLcB/s1600/Tarin%2BFish%2Bfirm%2B2.jpg</item>
+        <item> https://media-cdn.tripadvisor.com/media/photo-s/06/b9/c8/4c/urguelling-monastery.jpg</item>
+        <item> https://media-cdn.tripadvisor.com/media/photo-s/04/4d/f4/8d/brahma-dung-chung-ani.jpg</item>
+        <item> http://www.ftd.travel/upload/attraction_image/thumbs/2013\-08\-26\-11\-44\-08gyangong-ani-gompa-tawang.jpg</item>
+        <item> http://pctrs.network.hu/clubblogpicture/4/7/_/47133_534238982_big.jpg</item>
+        <item> https://media-cdn.tripadvisor.com/media/photo-s/03/c4/62/b8/sally-lake.jpg</item>
+        <item> https://ramanan50.files.wordpress.com/2014/04/sl4.jpg</item>
     </string-array>
 
     <string-array name="arunachal_dance">
