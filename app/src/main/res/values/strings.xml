@@ -551,7 +551,6 @@ In a beautiful hillock surrounded by amazing beauty and greenery, is situated a 
         <item> https://media-cdn.tripadvisor.com/media/photo-s/09/38/80/02/bomdila-monastery.jpg</item>
         <item> https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Pangong_Tso_wide.jpg/600px-Pangong_Tso_wide.jpg</item>
         <item> http://mw2.google.com/mw-panoramio/photos/medium/82116302.jpg</item>
-        <item> https://img1.holidayiq.com/photos/sh/shareiq\-1310205512\-011632-jpg-destreviewimages\-619x240\-1324604964-cropped.jpg</item>
         <item> http://3.bp.blogspot.com/-4NX7dHAvd1s/UR4jERYd2LI/AAAAAAAAAgA/5U7rAtv9T7U/s1600/kongmu-Kham+or+Golden+Pagoda.jpg</item>
         <item> http://www.tourismguideindia.com/images/Arunachal%20Pradesh/Itanagar/Jawaharlal%20Nehru%20Museum.jpg</item>
         <item> https://i.ytimg.com/vi/MzCTchCy7Aw/maxresdefault.jpg</item>
@@ -574,13 +573,12 @@ In a beautiful hillock surrounded by amazing beauty and greenery, is situated a 
     </string-array>
 
     <string-array name="arunachal_dance">
-        <item>apd1</item>
-        <item>apd2</item>
-        <item>apd3</item>
-        <item>apd4</item>
-        <item>apd5</item>
-        <item>apd6</item>
-        <item>apd7</item>
+        <item>Aji Lamu</item>
+        <item> Chalo</item>
+        <item> Hiirii Khaniing</item>
+        <item> Lion and Peacock dance</item>
+        <item> Ponung</item>
+        <item> Popir</item>
     </string-array>
 
     <string-array name="arunachal_cuisine">

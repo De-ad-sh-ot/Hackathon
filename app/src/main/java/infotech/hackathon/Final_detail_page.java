@@ -63,7 +63,7 @@ public class Final_detail_page extends AppCompatActivity {
             {
                 pageTitle = State_detail_detail.state_detail_detail_name[ResId];
                 pageImage = State_detail_detail.state_detail_detail_images[ResId];
-                pageContent=State_detail_detail.state_detail_detail_content[ResId];
+//                pageContent=State_detail_detail.state_detail_detail_content[ResId];
 
                 textView = (TextView) findViewById(R.id.textView_content);
                 textView.setText(pageContent);
