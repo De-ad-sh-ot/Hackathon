@@ -16,6 +16,8 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.blankj.utilcode.utils.ToastUtils;
+
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.util.HashMap;
@@ -139,7 +141,11 @@ public class UploadImageActivity extends AppCompatActivity implements View.OnCli
         }
 
         UploadImage ui = new UploadImage();
-        ui.execute(bitmap);
+        if(bitmap != null ){
+            ui.execute(bitmap);
+        }else {
+            ToastUtils.showLongToast(UploadImageActivity.this,"Please select image");
+        }
     }
 
     @Override
