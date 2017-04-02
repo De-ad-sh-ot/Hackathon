@@ -79,7 +79,9 @@
         <activity android:name=".ShowReview" />
         <activity android:name=".UploadImageActivity" />
         <activity android:name=".ImageListView" />
-        <activity android:name=".ViewFullImage"></activity>
+        <activity android:name=".ViewFullImage" />
+        <activity android:name=".GuideList" />
+        <activity android:name=".ContactUs"></activity>
     </application>
 
 </manifest>

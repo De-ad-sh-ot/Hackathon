@@ -297,11 +297,12 @@ In a beautiful hillock surrounded by amazing beauty and greenery, is situated a 
 
     <!--String arrays related to String_detail_detail.java file-->
     <string-array name="state_detail">
-        <item>Tourist Spots</item>
+        <item>Tourist and Religious spots</item>
+        <item>Handlooms and Handicrafts</item>
+        <item>Dresses</item>
         <item>Festivals</item>
         <item>Music &amp; Dances</item>
         <item>Cuisines</item>
-        <item>Handloom And Handicraft</item>
         <item>How to reach?</item>
     </string-array>
 
@@ -338,6 +339,40 @@ In a beautiful hillock surrounded by amazing beauty and greenery, is situated a 
         <item>Digboi Oil Museum</item>
     </string-array>
 
+    <string-array name="assam_tourist_content" formatted="false">
+        <item>Kaziranga National Park – a world heritage site, the park hosts two-thirds of the world’s Great One-horned rhinoceros. Kaziranga also boasts the highest density of tigers among the protected areas in the world and was declared a Tiger Reserve in 2006. Though sighting of tigers are difficult because of the tall grasses that provide excellent camouflage, their presence can be felt everywhere by way of pug marks, kills and territorial markings. The park is home to large breeding populations of elephants, wild water buffalo and swamp deer.
+</item>
+        <item>Kamakhya temple is a famous pilgrimage situated at Guwahati, Assam. The temple is located on the Nilachal hill in Guwahati at about 8 kms from the railway station. The Kamakhya temple is dedicated to the tantric goddesses. Apart from the deity Kamakhya Devi, compound of the temple houses 10 other avatars of Kali namely Dhumavati, Matangi, Bagola, Tara, Kamala, Bhairavi, Chinnamasta, Bhuvaneshwari and Tripuara Sundari.</item>
+        <item>Umananda Temple is a Shiva temple located on the Peacock Island, in the middle of river Brahmaputra. Peacock Island, which houses the Umanada Temple, is known as smallest inhabited riverine island in the world. Country boats are available all the time during the day, on the banks of Brahmaputra, to take the visitors to the island. The mountain on which the temple has been built, is known as Bhasmacala.</item>
+        <item>Dipor Bil, also spelt Deepor Beel it is located to the south-west of Guwahati city, in kamrup district of Assam. It is a permanent freshwater lake, in a former channel of the Brahmaputa River, to the south of the main river. It is also called a wetland under the Ramsar Convention which has listed the lake in November 2002, as a Ramsar Site for undertaking conservation measures on the basis of its biological and environmental importance.</item>
+        <item>Kalakshetra has been envisioned as a centre, an institution for the grand exposition of all aspects of Assamese life and culture. Named after the great saint-poet of the 15th century Assam, Mahapurusha Srimanta Sankaradeva, Srimanta Sankaradeva Kalakshetra is the realization of the historical “Assam Accord 1985” which says in Clause VI, “Constitutional, Legislative and administrative safeguard, as may be appropriate, shall be provided to protect, preserve and promote the cultural, social linguistic identity and heritage of Assamese people.</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
     <string-array name="assam_tourist_images" formatted="false">
         <item>http://www.kaziranga-national-park.com/images/kaziranga-national-park2.jpg</item>
         <item>https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Kamakhya_Guwahati.JPG/1024px-Kamakhya_Guwahati.JPG</item>
@@ -369,10 +404,6 @@ In a beautiful hillock surrounded by amazing beauty and greenery, is situated a 
         <item>https://treasuredwheels.files.wordpress.com/2013/12/wp_20131215_053.jpg</item>
         <item>https://mw2.google.com/mw-panoramio/photos/medium/1535433.jpg</item>
         <item>https://upload.wikimedia.org/wikipedia/commons/1/1c/Digboi_Centenary_Museum_04.JPG</item>
-    </string-array>
-
-    <string-array name="assam_tourist_content" formatted="false">
-
     </string-array>
 
     <string-array name="assam_dance">
@@ -415,6 +446,22 @@ In a beautiful hillock surrounded by amazing beauty and greenery, is situated a 
         <item>Pitha (Sweet Dish)</item>
     </string-array>
 
+    <string-array name="assam_cuisine_content" formatted="false">
+        <item>The \'khar\' is a dish which is probably unique to the state of Assam. A traditional Assamese meal always begins with a \'khar\' with some rice.It is believed that khar cleanses the stomach. The prepared dish is called khar and so is the main ingredient that goes into it.</item>
+        <item>Traditionally, this dish is considered to be a delicacy cooked and served on special occasions like Bihu, feast or for special guests. Even now-a-days, this dish is still integral part of any celebration or festivities.
+
+Though there are many variety of ducks available in Assam and NE India, we are going to talk about Paati Hanh (a type of mallard duck). People from Assam and NE region also like geese, wild ducks (especially a variety called as Xorali Hanh, a migratory duck, it is illegal to hunt for one though!) and this preparation can also be done for them.
+</item>
+        <item>Masor Tenga (Tangy Fish Curry), is an indispensable part of a proper meal in Assam. This is a light and tangy dish, and is one of Assam\'s signature preparations. The key ingredient in a tenga is the use of a souring agent like lemon or tomato which lends the dish a tart tangy taste. I being a fish addict, when saw this recipe in one of a popular food forum, could not stop myself and recreated the same in my kitchen some days back. It can be best enjoyed with plain rice.</item>
+        <item>Aloo Pitika is a signature side dish from Assam. It is a dish made with mashed potatoes mixed with few ingredients that enhances the flavor. The three basic ingredients which are combination of raw onions, salt and uncooked mustard oil is enough to take the whole platter to a different aromatic level. Sometimes aloo pitikas might even be garnished by finely chopped cilantro leaves, pumpkins, gourds, boiled eggs or even crushed dry fishes in the normal pitika. Making aloo pitika is quick as well as a simple process.</item>
+        <item>Different types of Xaak (leafy vegetables) are always a part of authentic Assamese cuisine. Dhekia xaak, the edible Fiddle-head Fern  is not only popular in Assam but also in the entire reason of our beautiful North-East. People love to cook this Xaak in different ways. For example, Dhekia xaak stir fry with chickpeas/potatoes, Fish sour curry with Dhekia Xaak and Ou tenga (elephant apple), Pork stew with Dhekia etc.</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
     <string-array name="assam_cuisine_images" formatted="false">
         <item>https://www.holidify.com/blog/wp-content/uploads/2015/11/8551488501_893b368f26_b.jpg</item>
         <item>https://www.holidify.com/blog/wp-content/uploads/2015/11/6497239243_8ec347a33c_b.jpg</item>
@@ -446,6 +493,20 @@ In a beautiful hillock surrounded by amazing beauty and greenery, is situated a 
         <item>Tea Festival</item>
         <item>Brahmaputra Beach Festival</item>
         <item>Kaziranga Elephant Festival</item>
+    </string-array>
+
+    <string-array name="assam_festival_content" formatted="false">
+        <item>Bihu is the name for the National Festival of Assam which is one of the most beautiful states of India which is reckoned for tea gardens, mighty Brahmaputra River and Lush green forests. Also the state of Assam is reckoned for the Bihu festival that depicts a set of three different cultural festivals of the state.</item>
+        <item>The Ambubachi Mela is celebrated in the capital city of Guwahati, in the northeastern state of Assam in India. The Ambubachi Mela is the most important festival of the Kamakhya Temple of Guwahati. The Ambubachi is a ritual of asceses observed with “Tantrik means”. It is believed that the presiding goddess of the temple, Devi Kamakhya, the Mother Shakti, goes through her annual cycle of menstruation during this time stretch.
+
+During the Ambubachi Mela in Guwahati, the doors of the Kamakhya Temple remain closed for three days. It is believed that the Mother Earth becomes unclean for three days. During this time any kind of farming work is not taken on. Daily worships and other religious performances are also stopped during the Ambubachi Mela of Guwahati in Assam. After the completion of three days, the doors of the Kamakhya Temple are reopened. But the doors of the temple are reopened only after Devi Kamakhya is bathed and the other rituals are executed. It is then believed that the Mother Earth has retrieved her purity. This is purely a ritual of the Tantrik cult.</item>
+        <item>The Raas Lila is an annual festival being performed on the full moon day (Purnima) in the months of October-November (Kati- Aghun) during the autumn season. It is not known for certain in which Sattra Rasa Lila was first introduced in Majuli as a performing festival. During this festival the Sattras draw a large number of people. The Raas Lila is the story of the life of Lord Krishna presented in the performing art form.
+        </item>
+        <item>The Dehing Patkai Festival is celebrated in the eastern part of the northeastern state of Assam in India. The Dehing Patkai Festival in Dehing is named after the majestic Patkai range and the mischievous Dehing River. The Patkai Festival of Dehing in Assam is an invigorating blend of tribal fairs, tea heritage tours, golfing, adventure sports, and wildlife pleasure trip. Another interesting fact about the Dehing Patkai Festival is that it offers a trip to the 2nd World War cemeteries which speaks of history of the past. The festival also arranges for a trip to the Stilwell Road, which was once the passage to the golden land of Myanmar.</item>
+        <item>The Tea Festival is held in the district of Jorhat in the northeastern state of Assam in India. Jorhat is well-known for its extensive tea gardens, and is the nerve centre of the tea industry. Jorhat has the world famous Teklai Experimental Centre. In this place research work is carried out to find new varieties of tea and also the curative effects of green tea. The island of Majuli, the largest island on the Brahmaputra, and the Nambar Forest Reserve can be visited from Jorhat. In Majuli there are numerous monasteries and the Nambar Forest Reserve is famous for being a regenerating hot spring.</item>
+        <item>The onset of the spring season in January sends a note of excitement and thrills throughout Assam. Everyone is in the mood for adventure. The reason behind this is a unique festival, the Brahmaputra Beach Festival, which is held every year at this time. Coinciding with the harvest festival of Assam (Magh Bihu), the festival is held on the sandy beaches of the vast Brahmaputra River. The colorful scenes and sights of the festival leave the onlookers in a state of elation. This is, indeed, the best time to explore the mesmerizing scenery of this Tropical Paradise.
+</item>
+        <item>The popular Elephant Festival is held in the north eastern state of Assam in India. The State of Assam organizes for one of the largest elephant festivals in India for the purpose of conservation and safeguard of Asiatic elephants. The Elephant Festival of Kaziranga in Assam draws a huge crowd in the state during this period. Thousands of tourists flock to Kaziranga in Assam to witness this fantastic Kaziranga Elephant Festival.</item>
     </string-array>
 
     <string-array name="assam_festival_images" formatted="false">
@@ -573,12 +634,44 @@ In a beautiful hillock surrounded by amazing beauty and greenery, is situated a 
     </string-array>
 
     <string-array name="arunachal_dance">
-        <item>Aji Lamu</item>
+        <item> Aji Lamu</item>
         <item> Chalo</item>
         <item> Hiirii Khaniing</item>
         <item> Lion and Peacock dance</item>
         <item> Ponung</item>
         <item> Popir</item>
+    </string-array>
+
+    <string-array name="arunachal_dance_images" formatted="false">
+        <item>http://westkameng.nic.in/Dances/images/Ajilamu.jpg</item>
+        <item>http://www.indecubo.com/wp-content/uploads/2015/08/Chalo-Loku-Festival.jpg</item>
+        <item> http://nabamtuki.org/political/website/nabamtuki/images/5.png</item>
+        <item> http://nabamtuki.org/political/website/nabamtuki/images/6.png</item><item> http://im.hunt.in/cg/Arun/About/Profile/Culture/Ponung.jpg</item><item> https://pasighat.files.wordpress.com/2011/05/5517393912_0d4d2d0f47.jpg</item>
+    </string-array>
+
+    <string-array name="arunachal_dance_content" formatted="false">
+        <item>Aji Lamu (Monpa Tribe)\n\nThe Aji Lamu is a folk dance which had evolved in time immemorial among the tribe of the Monpa tribe.   The Monpa tribe is a tribe which is really keen towards the art and culture. This has not been much written in the history about the Monpa tribe but this is obvious that the tribe is very much inclined towards the art and culture and especially the dance forms in the folk arena are really commendable. The Aji Lamu is a folk dance form which is really appreciated regionally, nationally and internationally and is highly acclaimed at the same time. The Monpa tribe is one of the many tribes which has immigrated to the state of Arunachal Pradesh many years ago and then settled out there till present time. One notable feature of the Monpa tribe is their folk dance form which is really colorful and enjoyable. The dances in the state of Arunachal Pradesh are usually group dance and these folk dance forms are indeed very entertaining in totality. The state of Arunachal Pradesh is really mountainous and thus the people are used to live the tough life in the mountains. It has been noticed that there is a deep influence of their lifestyle in their folk dance forms in a major way. The group dance forms that they perform have masks of animals and many props like sticks etc are used which makes them even more interesting and watchable. The music played is loud and enthusiastic. The songs played in the folk dance forms are really inspirational and enthusiastic and has a message in it. Most of the songs which are played in the Aji Lamu folk dance are loud and is very much in rhythm which complements the dance form in a major way for sure.\n</item>
+
+        <item>Chalo (Nocte Tribe)\n\nThere is a glorious history behind the Chalo dance form which is being practiced by the Nocte tribe of the state of Arunachal Pradesh in the country of India. The Nocte tribes are found in the Tirap district of the state of Arunachal Pradesh. The Chalo dance form is being widely practiced during the Loku festival which is the chasing of the old season of the year. The Loku festival is a three days long festival and is celebrated with much pomp and joy from time immemorial. The Chalo is the very famous form of the folk dance which is being very well practiced by the Nocte tribe who are the inhabitants of the state of Arunachal Pradesh. The Nocte tribe celebrate the three days long festival of Loku and during the festival, this particular form of folk dance is being widely showcased by the inhabitants of this tribe. In the first day of the Loku festival, there are a number of rituals which are being observed by this particular tribe. There are unique rituals like slaughter of Cattles and feasting with delicious food on the first day of the festival. In the second day of the Loku festival, there are rituals like the praying of the gods and the chiefs in a celebrated way. All are done in an unique way. After the grand feasts, there is the Chalo dance which is performed all night followed by the grand feast. The sound used for the Chalo dance is really loud and enthusiastic so that it rhythms with the dance steps well. In the third and the final day of the Loku festival, there is a ridiculous ritual which is being performed in a major way. There are eggs which are collected from the village and they are broken for the sake of good fortune. There are prayers and rituals followed by the breaking of the eggs.\n</item>
+
+
+        <item>Hiirii Khaniing (Apatani Tribe)\n\nThe Hiirii Khaniing is a form of folk dance which is one of the cultural showcases of the Apatani tribe which is the native of the state of Arunachal Pradesh  which is situated in the north eastern part of the country of India. The dance form which is one of the famous folk dances had evolved from time immemorial and have been emerged as one of the major dance forms in due course of time.
+        The Hiirii Khaniing is a form of folk dance which is one of the cultural showcases of the Apatani tribe which is the native of the state of Arunachal Pradesh  which is situated in the north eastern part of the country of India. The mentioned dance is usually a group dance where men and women participate with equal vigor. The best part is that the dance looks beautiful due to the colorful costumes that are being flaunted by the tribal people from the designated region of the state of Arunachal Pradesh. The songs used in the dance form is very enthusiastic and very lively. The dance is very well complemented with the loud and lively music which adds to the entertainment of the participants of the dance as well as the audience who enjoys the dance and the music thoroughly. Like all other folk dances, this particular dance form is inspired by the dance performed by the Buddhists in the earlier times. This folk dance is aimed towards the complete merriment and socoalising in the community by the Apatani tribe in a major way. This folk dance is not just a dance but a way which was also used to disseminate a social message on the success of goodness over the evil. This form of folk dance is also sometimes referred to as the dance drama with a message.\n</item>
+
+
+
+        <item>Lion and Peacock dance (Monpa)\n\nThe history behind the lion and peacock dance is really interesting and originated many years ago in the state of Arunachal Pradesh. The legends say that at one point of time many years ago there was a saint whose name was Tenteling. The holy saint decided to do a tough meditation on top of the mountain which was called Gangrikarpo which was located in the Himalayan mountains. The holy saint is believed to be doing a tough meditation continuously for three long years without having any kind of food or drink. It was also believed that in the ridges of the Himalayan range where the saint was meditating had two snow lions residing there. The snow lions were astonished and surprised to see that the saint was meditating for such a long time without consuming any food or drink. In order to be of some help to the holy saint, the lions offered their milk to the saint in order to facilitate their survival in a major way. The saint after completing the meditation danced with the lion making merry and this form of dance was named as the  lion and peacock dance. Later on the people were really astonished to hear about this never before kind of relationship between a godly human being and a wild animal and practiced this form of dance in their lives in all major occasions. The lion and peacock dance which is majorly practiced by the Monpa tribe of Arunachal Pradesh had a glorious history behind its origin as discussed above. This form of dance is still practiced by the both men and women of the Monpa tribe in all major occasions and festivities in their life. In this form of dance the people disguise themselves with the masks of the lion and then perform an enthusiastic dance with the rhythm of the loud music which complements the dance form in the best possible way.\n</item>
+
+        <item>Ponung (Adi Tribe)\n\n
+        The Adi tribes are an important tribe who lived in Arunachal Pradesh and are a no nonsense group of people, disturbing nobody and letting nobody disturb them. Adi means hill and very true to their names, these tribals live on mountain tops. They are generally found in East Siang, Upper Siang, West Siang and some parts of the Lower Dibang valley. The Adi tribes are very disciplined and righteous. They have a leader amongst them and they have a customary court, and the tribes follow any rules laid out by the old and wise people of this tribe. Rice wet cultivation is one of their most important occupation, and considering that theirs is an agricultural economy, this is the most important activity here.
+        The Ponung dance is performed by the Adi tribes just before they harvest their full grown crops – they thank God for having taken care of their crops – because this is their sole form of food which is key to their survival. They also pray for the upcoming harvest season, and request God to shower the same grace for the forthcoming seasons too. The other main reason for the dance is to ensure that the entire village prospers.
+        In the Ponung dance, all dancers except one are young married women. These women stand in a circle, and are ready to sing and dance. The one dancer who is a male dancer, is the leader or Miri. He is old, and has a fair understanding and knowledge about the food grains and the soil. He is proficient in agricultural terms and has ample experience in the same too. He sings legendary songs that are very relevant to the harvest – sometimes there are about how paddy came into existence, and at others about other crops. These songs that are sung by him show his experience in cultivation, and also the trust that the younger generation has put into him. He has in his possession, the Yoksha which is a musical instrument resembling a sword. He holds this high, and continues to jiggle this all through the dance performance. The Yoksha has rings of iron circles fixed and this starts to vibrate as he moves the instrument.
+        The women all stand in a circular pattern and when they stand like that they extend their hands and spread it out, such that every woman touches her neighbor’ shoulder. The Miri stands in the center point of this circle and starts singing and dancing. The song is generally about how paddy came into being – in local language this is call the Abhanga. Since the Miri is quite experienced and old with wisdom, he does a fabulous job in singing the Abhanga. The women, who stand around him, immediately repeat what they heard their leader sing. Once they finish singing, they start their rhythmic dancing. This is very slow, and at no point in time do we see the speed.
+        Though this dance is performed, in the majority cases at times of harvest and cultivation, there are many auspicious occasions where we can see the performance of Ponung Adi. Life is full of such auspicious events – marriages, child birth, religious functions being some of them and at most of these instances, the Miri and the young married women gear up for the Ponung Adi dance.\n</item>
+
+
+        <item>Popir (Adi Tribe)\n\n
+        The history of the Popir dates back to very old times, and it is considered to have been practiced even in the very olden days. The people of the Galo tribes were always a religious group of people and they had religion embedded into every action of theirs. They celebrated religious festivals and the Mopin festival was considered the most important. The Popir dance is performed at the time of celebrating Mopin. The Galo tribes of people were a God fearing set of people and believed that if God was with them nobody can be against them. This strong belief is seen is all their practices and their festivals. They trust that the God is the supreme power and there can nothing that God can’t do. So, they celebrated this faith in them and performed dances where they pleased their Gods. The Popir dance has its origin in that belief of the Galos. The Mopin festival is the harvest festival of the Adi Tribes. They celebrate this festival and thank God for the hearty harvest that they have received for the year. Since cultivation is the main economy in north eastern India, the harvest assumes prime significance. The year that the harvest is good will mean the whole economy is flourishing – so good harvest is very important to the Adi Tribes. At the time of the harvest festival, the Adi tribes, get together and sing praises of God and thank him for the magnanimous harvest. They sing about how kind God has been to them and they pray to him to continue to shower His mercy on them – so that they continue to reap this rich harvest year on year, thereby making their economy thrive. This could also be considered as one of the folk dances where the tribes give thanks to the Gods. The Mopin festival is also celebrated to drive away the evil and bring in the good things. The tribes actually pray to God to chase the bad or evil spirits and take them away from their tribes, so that their tribesmen, women and children are safe and healthy. The Adi tribes believe in the existence of ghosts and other evil spirits and practically trust that just like there is dark when there is light, there is bad when there is good. So, these tribes also pray to God to keep the bad spirits away and to keep them safe from them. They believe that these bad spirits can cause disease, earthquakes or other disturbances and hence pray so that they can be prevented from these. Young girls perform this Mopin dance and since rice is a prominent cereal and an important meal of the Adi Tribes, this is served during the dishes performed at the time of this festival. These young girls wear white dresses and dress up well. They wear many layers of bead chains of many colors giving the white dress a very magical appearance. They put rice flour on each other’s faces as a way of celebration. At the time of this Mopin festival, the women cook extensive meals and even make wine out of rice! They serve this wine and celebrate and also make and serve many dishes. Special mention is to be made about Aamin, which is a rice based dish. The other accompaniments are meat and the shoot of bamboo. So, every year on the day of the Mopin festival, the Adi tribals, eat Aamin, drink rice wine, dust each other wish rice flour and dance the Popir dance – to seek the blessings of their tribal god.\n</item>
     </string-array>
 
     <string-array name="arunachal_cuisine">
@@ -610,7 +703,7 @@ In a beautiful hillock surrounded by amazing beauty and greenery, is situated a 
         <item>apf6</item>
         <item>apf7</item>
     </string-array>
-    
+
     <string-array name="arunachal_detail" formatted="false">
         <item>http://www.letsseeindia.com/upload/city/Tawang.JPG</item>
         <item>https://tmi2-tourmyindiapvtlt.netdna-ssl.com/blog/wp-content/uploads/2014/10/Lossar-Festival.jpg</item>
@@ -622,10 +715,11 @@ In a beautiful hillock surrounded by amazing beauty and greenery, is situated a 
 
     <string-array name="assam_detail" formatted="false">
         <item>http://www.assamspider.com/attachments/Resources/3752-30536-kamakhya-temple-assam.jpg</item>
+        <item>http://arunachalpra.desh.mobi/image-of/carpetmaking-arunachal-pradesh.jpg</item>
+        <item>http://2.bp.blogspot.com/-6TzbLY53r3k/U3MaQZyNffI/AAAAAAAAAZE/afJm-eaZw6M/s1600/_DSC1201.JPG</item>
         <item>http://www.theholidayindia.com/blog/wp-content/uploads/2015/10/Bihu-Dance-Assam-810x539.jpg</item>
         <item>http://bomdilabuddhamahotsava.com/images/s.jpg</item>
         <item>http://www.nelive.in/sites/default/files/fish%20stew.jpg</item>
-        <item>http://arunachalpra.desh.mobi/image-of/carpetmaking-arunachal-pradesh.jpg</item>
         <item>http://2.bp.blogspot.com/-VrpDwQO1C9U/VOX8Rd7EiiI/AAAAAAAAq9g/SY4x8j2zLzo/s1600/Sela%2BPass%2BLake%2Btawang%2Barunachal%2Bpradesh%2Btourism%2Bindia.jpg.</item>
     </string-array>
 
@@ -871,9 +965,6 @@ In a beautiful hillock surrounded by amazing beauty and greenery, is situated a 
     </string-array>
 
     <string-array name="sikkim_dance">
-        <item>Susira</item>
-        <item>Ghana</item>
-        <item>Vandya- Instruments Of Percussion</item>
         <item>Lu Khangthamo</item>
         <item>Gha To Kito</item>
         <item>Chi Rimu</item>
@@ -891,10 +982,25 @@ In a beautiful hillock surrounded by amazing beauty and greenery, is situated a 
         <item>Maruni Dance</item>
     </string-array>
 
+    <string-array name="sikkim_dance_content">
+        <item>This dance form is dedicated to a day of thanksgiving to the Gods and deities. This dance form is performed by both young and old people in traditional customs and ornaments. This is a popular Bhutia folk dance.</item>
+        <item>This Bhutia folk dance form is accompanied by songs which describes the state of Sikkim and its beauty</item>
+        <item>This Bhutia folk dance is performed praising the state of Sikkim. This is a popular dance form performed in every happiest occasion in the household.</item>
+        <item>This folk dance form is performed accompanied by devotional hymns and songs. The dance folk and the songs accompanying them tell the uses of the majestic bamboos.</item>
+        <item>This Sikkimese dance is performed during the happier occasions like childbirth, marriage and other social gatherings. This dance form is performed to pay thanks to the God for His blessings.</item>
+        <item>This is a popular Bhutia folk dance performed in Sikkim praising its natural beauty.</item>
+        <item>This is the folk dance depicting the Bhutia custom of offering scarves. This dance form is performed by boys and girls.</item>
+        <item>This is a popular mask dance of Sikkim performed by Lamas in Gompas. This dance form is performed for celebrating religious festivals and provides a spectacular view of the dance form. The footwork and grace with traditional costumes provides a beautiful sight to see. The Lamas wear painted masks and jewels and take ceremonial swords swaying to the beat of the drums and horns. This dance form is performed in sync with the annual rituals celebrated on 18th and 19th days of the eleventh month of the Tibetan Buddhist Calendar.</item>
+        <item>This dance form is performed by monks during the 28th and 29th day of the tenth month of the Tibetan calendar. This dance symbolizes the destruction of evil over good and the look forward to peace and prosperity in Sikkim. The dancers are popular Chaam and the dance is accompanied by liturgical music and chanting. The dance form enacts themes from Buddhist mythology and ends with the burning of effigies made of flour, wood and paper.</item>
+        <item>This is one of the significant religious mask dances and is performed on the 10th day of the fifth months of the Tibetan calendar. The dance form presents eight manifestations of Guru Rimponche. </item>
+        <item>This is a masked dance of Sikkim depicting the cultural symbol of Sikkim- the snow lion. The local people display the cultural symbol of the snow lion by dressing up with fury costumes and perform the dance form.</item>
+        <item>This dance form honors the life force of Sikkim, Mount Kanchengjunga. The Mount Kangchenjunga with its associate peaks located nearby is honored by dancers by carrying butter lamps and green bamboo leaves. This dance form is performed on the 15th day of the seventh month of the Northern Buddhist calendar.</item>
+        <item>This dance form is performed by the Bhutia people to honor Yak, the animal Sikkim is mostly dependent on. This dance form depicts the lifestyle of the herdsmen of Sikkim. </item>
+        <item>This dance form is a bravery warrior dance form performed in honor of the ritual of giving religious touch to soldiers sent for battle. The warriors are also given a Khukuri which is to be always carried by them. </item>
+        <item>This is one of the oldest dance form of the Nepalis. This dance form is mostly performed during marriages and celebrates the victory of good over evil.</item>
+    </string-array>
+
     <string-array name="sikkim_dance_images" formatted="false">
-        <item>http://im.hunt.in/cg/sik/About/Profile/Culture/monasticorch.jpg</item>
-        <item>http://www.georgelumayag.com/uploads/7/6/4/6/764691/9766938.jpg?343</item>
-        <item>http://www.soundtravels.co.uk/upload/all/mi/MITP006.jpg</item>
         <item>http://www.indianetzone.com/photos_gallery/80/Folk_Dances_of_Sikkim_1.jpg</item>
         <item>http://gosikkim.in/images/sikkim-dance-05.jpg</item>
         <item>http://gosikkim.in/images/sikkim-dance-07.jpg</item>
@@ -960,6 +1066,24 @@ In a beautiful hillock surrounded by amazing beauty and greenery, is situated a 
         <item>http://www.himalaya-trip.com/images/destinations/namchi.jpg</item>
     </string-array>
 
+    <string-array name="sikkim_festival_content" formatted="false">
+        <item>The Saga Dawa Festival honors the life of Buddha. According to their tradition, when Buddha was dying, he instructed one of his followers not to honor him merely with flowers, incense and lights after he died but by striving to follow his teachings about living a noble life and being kind and compassionate. He urged people not to weep about his death but to remember that all compound objects like the human body must eventually disintegrate. In various Buddhist countries, people celebrate the holiday in different ways and on different days. In China, non-Tibetan Buddhists will celebrate the holiday on May 10, 2011. In Tibet, the people celebrate the festival on June 15, 2011 and June 4, 2012, and the main activities involve going to temples, raising a tall prayer pole called the Tarboche Prayer Flagpole, and lighting a lot of butter lamps for the occasion.</item>
+        <item>
+Pang Lhabsol is among the popular festivals in Sikkim which is celebrated with a great deal of pomp and grandeur. It is amongst the popular carnivals in Sikkim and it endows color and elegance to the already colorful state. The rich and varied tints play a very significant role in the cultural fiesta.</item>
+        <item>This festival is celebrated at Tashiding Monastery on the 15th day of the first month of the Tibetan calendar. Bumchu or the opening of the vessel containing the holy water is one of the holiest festivals in Sikkim. The level of water in this vessel is believed to be a sign of the fortunes of the coming year</item>
+        <item>The Indian calendar is replete with numerous fairs and festivals. The festivals in India are categorized into two. Some are celebrated by whole India and some are specific to particular regions. Losoong is one of Sikkim’s grand festivals. It is the celebration of the Sikkimese New Year.
+
+Losoong is an extravagance carnival in Sikkim. According to the Tibetan Calendar, the festival falls on the 10th month of every year which is generally the month of December. Chaam dance and archery contests are the major attractions. Beyond Bhutias and Lepchas, Losoong is also celebrated grandly by Nepalese, Sikkimese and other tribal communities in Sikkim, Darjeeling and Nepal.</item>
+        <item>This is the main festival of the Hindu Nepalese of Sikkim. It takes place in the month of September-October. It is celebrated in the same way as Dushera in other parts of the country. The puja of Goddess Durga is performed from the first day (Prathama) to the ninth day (Navmi).
+On the tenth day, the elders in every family apply \'tika\' on the young ones and bless them. Cash or gift in kind is also given by the elders. The very next day, the statue of Goddess Durga is taken in a colourful procession for its immersion in a lake or river. This marks the end of Dassain.</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
     <string-array name="tripura_tourist">
         <item>tripurat1</item>
         <item>tripurat2</item>
@@ -1013,37 +1137,37 @@ In a beautiful hillock surrounded by amazing beauty and greenery, is situated a 
     <string name="title_activity_map_nearby_facilities">Map</string>
 
     <string name="hello_world">Hello world!</string>
-        <string name="str_btn_find">Find</string>
+    <string name="str_btn_find">Find</string>
 
-        <string-array name="place_type">
-            <item>airport</item>
-            <item>atm</item>
-            <item>bank</item>
-            <item>bus_station</item>
-            <item>church</item>
-            <item>doctor</item>
-            <item>hospital</item>
-            <item>mosque</item>
-            <item>movie_theater</item>
-            <item>hindu_temple</item>
-            <item>restaurant</item>
-        </string-array>
+    <string-array name="place_type">
+        <item>airport</item>
+        <item>atm</item>
+        <item>bank</item>
+        <item>bus_station</item>
+        <item>church</item>
+        <item>doctor</item>
+        <item>hospital</item>
+        <item>mosque</item>
+        <item>movie_theater</item>
+        <item>hindu_temple</item>
+        <item>restaurant</item>
+    </string-array>
 
-        <string-array name="place_type_name">
-            <item>Airport</item>
-            <item>ATM</item>
-            <item>Bank</item>
-            <item>Bus Station</item>
-            <item>Church</item>
-            <item>Doctor</item>
-            <item>Hospital</item>
-            <item>Mosque</item>
-            <item>Movie Theater</item>1
-            <item>Hindu Temple</item>
-            <item>Restaurant</item>
-        </string-array>
+    <string-array name="place_type_name">
+        <item>Airport</item>
+        <item>ATM</item>
+        <item>Bank</item>
+        <item>Bus Station</item>
+        <item>Church</item>
+        <item>Doctor</item>
+        <item>Hospital</item>
+        <item>Mosque</item>
+        <item>Movie Theater</item>1
+        <item>Hindu Temple</item>
+        <item>Restaurant</item>
+    </string-array>
 
-   <string name="hint_email">Email</string>
+    <string name="hint_email">Email</string>
 
     <string name="hint_password">Password</string>
     <string name="hint_name">Fullname</string>
@@ -1066,5 +1190,95 @@ In a beautiful hillock surrounded by amazing beauty and greenery, is situated a 
     <string name="desc">
         Captivating natural beauty combined with a rich cultural heritage, the warmth of the blue mountains, angel like snow, gorgeous green, arresting valleys, romantic rivers, dense forest, lovely waterfalls, exciting caves, breathing wildlife, wonderful traditions and rituals, marvelous monuments and alluring handicrafts will surely adorn your journey with unforgettable memories. By offering a surprise range of attractions, North East India attracts tourists from across the world, this land guarantees superb adventure filled activities to tourists. It occupies an ideal location in the lap of the mighty Himalayas, sharing border with countries like Bhutan, China, Myanmar and Bangladesh.
 </string>
+
+    <string-array name="assam_handlooms" formatted="false">
+        <item>Cane And Bamboo</item>
+        <item>Metal Crafts</item>
+        <item>Pottery</item>
+        <item>Handlooms</item>
+        <item>Woodcraft</item>
+        <item>Jewellery</item>
+        <item>Painting</item>
+    </string-array>
+
+    <string-array name="assam_handlooms_images" formatted="false">
+        <item>https://navmikaul.files.wordpress.com/2014/03/img_1997.jpg</item>
+        <item>http://www.nelive.in/sites/default/files/Neglected%20Metal%20Crafts%20of%20Assam.jpg</item>
+        <item>https://s-media-cache-ak0.pinimg.com/originals/68/c6/57/68c65726558a3d4c9ce27260df9ad649.jpg</item>
+        <item>http://handloomassam.com/wp-content/uploads/2015/06/handloom_7.jpg</item>
+        <item>http://asmenvis.nic.in/WriteReadData/UserFiles/image/walnut-wood-crafts.jpg</item>
+        <item>http://4.bp.blogspot.com/-vclySG7JlRY/T05disFI0AI/AAAAAAAAAQg/CDr5Y0vVWz4/s640/assamjewel19.png</item>
+        <item>http://indianreview.in/wp-content/uploads/2011/01/Mount-Meru-Anadi-Patan-manuscript.jpg</item>
+    </string-array>
+
+    <string-array name="assam_handlooms_content" formatted="false">
+        <item>Cane and bamboo contribute a great deal to the lifestyle and economy of Assam. Many varieties grow in abundance and each has its own special uses. Bamboo in particular is an integral part of architecture in the villages.
+Cane and bamboo are also used in making furniture as well as many other day-to-day articles like beer mugs, sieves and various tools and utensils.
+One of the most important articles is the japi, a traditional wide brimmed Assamese hat, made from strips of bamboo and tokow paat (dried palm leaves) and used by outdoors workers for protection from the sun. These days they are also used as decorative items in drawing rooms and have become a popular souvenir for tourists.</item>
+        <item>Metal crafts in Assam consist of generally bell metal and brass metal. Their use can be seen even in ancient times in utensils and statues. Today, they are also used for making fancy household items. During the days of Royalty, even gold and silver were used. But now they are only used in making jewelery. Hajo and Sarthebari villages are the most famous for metal works in Assam. They are quite close to Guwahati, so you can easily get their products in the many shopping markets in the capital city.</item>
+        <item>In Assam the craft of making pottery can be traced back many centuries. The two traditional potter communities in Assam are the Kumar and the Hira.
+Kumar is a Hindu caste name indicating that the profession followed by the majority of that particular group of people is pottery. The process followed by these people has not changed much since ancient times. They dig clay which they then beat and knead with the hands, feet or mallets of stone or wood and use a chaak (potter’s wheel) to fashion different utensils which are then fired in a panja (kiln). They then paint the finished articles.
+In particular, pottery is made in Majuli, a large river island in the Brahmaputra River and cultural capital and cradle of Assamese civilisation, from beaten clay and burnt in driftwood fired kilns exactly as it was during the ancient Harrappan civilisation over 4,000 years ago.
+The most commonly made pottery products are household articles such as pots, pitchers, plates, incense-stick holders, and earthern lamps as well as some more modern design ornaments.</item>
+        <item>Weaving is one of the oldest industries in the state and Assam is well known for its rich textures and designs leading Gandhiji to compliment Assamese weavers as artists who could weave dreams in their looms. So important is this ancient craft it is customary for all young Assamese girls to learn to weave in order to make a marriage match. The industry has been kept alive by the many tribes residing in Assam, which boasts the largest number of weavers and handlooms in the whole of India.
+Traditionally every handloom fabric created was unique because the colours and designs varied from weaver to weaver who poured her own personality into the creation using images of birds, animals, creepers, flowers and people in the pattern as well as embroidering motifs on the finished article. Each ethnic group has its own distinctive design and style. Today, however, designers do incorporate patterns and designs based on market demand and the Regional Design Centre at Guwahati supplies new designs and colour patterns to the indigenous handloom societies in the state.
+The raw materials mainly used are cotton, the world famous muga or golden silk, pat the white or “mulberry” silk and the warm eri or endi.</item>
+        <item>The woodwork industry in Assam was prolific in ancient times when the forests were abundant with rare and valuable woods like sandalwood, salmali, agaru and vata (banyan). It was traditionally carried out by a group of people named khonikors who hand carved wooden decorations in the palaces of the Ahom rulers. It is reported that their work was so highly regarded and popular with the royals that a separate village called Khonikargaon was built for them near Sibsagar in the district of the same name.
+Testimony to the artistic creations of the khonikars is evident in many naamghars (prayer houses) and sattras (Vaishnava monasteries) in Assam and the indigenous tradition of wood-working still continues in the district of Sibsagar. Here local carpenters still make simghashan, throne-type structures which are often supported by four elephants, twenty-four lions and seven tigers, kharai (book rests) and carve the wooden doors, windows and beams of the prayer houses and monasteries with mythical figures like Hanuman, the monkey deity who featured in the story of the Ramayana, leaving visitors awe-struck by their beauty.</item>
+        <item>Dating back from ancient times Assam has built up a rich collection of traditional jewellery designs unique and exclusive to the state that hold a special place in the hearts of Assamese women and are worn during cultural and religious events. Jorhat, the 2nd biggest city in Assam located in the district of Jorhat is the main jewellery-making centre and thousands of natives and visitors flock there every day to browse in the numerous outlets. This district also has a number of small scale cottage industries where skilled jewellery-makers also work.
+Assamese jewellery is mainly made from gold which was found in abundance in many Himalayan rivers, notably the Subansiri, flowing through the state and which originally gave rise to the industry. A division of the Bodo-Kachari family, a tribe called the Sonowal Kacharis, were especially engaged in gold panning of river sand during the reign of the Ahom kings, hence their name Sonowal, meaning gold washer. Apart from gold other metals like silver were also used in conventional jewellery-making.</item>
+        <item>The traditional paintings of Assam serve as a source of inspiration to thousands of art lovers around the globe. Renowned for their unmatched quality and outstanding strokes of mastery, they have become an integral part of Assam’s rich heritage. With origins traced back to the seventh century AD, Assamese paintings were illustrations inspired by the epic mythological tales like the Mahabarata. Many original ancient manuscripts have been collected from all over the state and published complete with their original illustrations. They were executed on bark and a fine lint-like surface known as tulapat.
+Some of the original manuscripts are on display at the Assam State Museum in Guwahati while others are in the hands of private collectors. In addition the Assam Fine Arts and Crafts Society in Guwahati and the Jorhat Fine Arts Society in Jorhat are also playing significant roles in preserving the rich cultural heritage of the state.
+This form of art was not restricted to just manuscript, however, and although limited, evidence does exist of paintings on woodwork, muga silk and other surfaces.</item>
+    </string-array>
+
+    <string-array name="manipur_dresses" formatted="false">
+        <item>Innaphi</item>
+        <item>Phanek</item>
+        <item>Mayek Naibi</item>
+        <item>Kanap Phanek</item>
+        <item>Sarong</item>
+        <item>Chin phi</item>
+        <item>Lai phi</item>
+    </string-array>
+
+    <string-array name="manipur_dresses_images" formatted="false">
+        <item>https://kenne784.files.wordpress.com/2014/06/20140217_152842.jpg?w=360&amp;h=480</item>
+        <item>https://s3.ap-south-1.amazonaws.com/giskaacdn/content/images/thumbs/0007897_slate-blue-red-100-muga-silk-phanek-shawl-set-traditional-handmade.jpeg</item>
+        <item>http://2.bp.blogspot.com/-6TzbLY53r3k/U3MaQZyNffI/AAAAAAAAAZE/afJm-eaZw6M/s1600/_DSC1201.JPG</item>
+        <item>http://4.bp.blogspot.com/-CkEoaF7vplc/VJ0Fgrmvh7I/AAAAAAAAATA/wNYXbsRGsrQ/s1600/bihu-festival-assam-tourist-spots.jpg</item>
+        <item>http://www.inonit.in/images/item/38/f/a/manipuri-embroidered-blue-sarong-phanek.jpg</item>
+        <item>http://www.nelive.in/sites/default/files/Manipuri%20Dress1.jpg</item>
+        <item>https://cdn.shopify.com/s/files/1/1305/2341/products/03013000913_1_1024x1024.jpg?v=1466420256</item>
+    </string-array>
+
+    <string-array name="manipur_dresses_content" formatted="false">
+        <item>ENAPHIS are very colorful and attractive. Females wear these to cover their upper body. These are transparent and rectangular shape. Innaphis are available in different colors and designs. It is the perfect one to pair  with Mapan Naibi. Innapi is worn with a pair of beautiful blouse.</item>
+        <item>PHANEK is the ethnic wear commonly wear by the female of Manipur. It is just like a SARONG wear in other regions of the world. But, Manipur Phanek is very different from other because of its unique style, design and color. Made up of cotton, silk and other synthetic materials. MAYEK NAIBI is the special Phanek which worn when they go out for office work or in a marriage ceremony. It is to be worn like a wraparound. The bottom of the Mayek Naibi adorned with heavy  embroidery work in different designs.</item>
+        <item>Phanek Mayek Naiba (formal loin cloth of women) is a precious traditional Manipuri fabric which showcases and upholds the identity of Manipuri womenfolk. It is made by silk or cotton. It has stripes and embroidery of traditional artistic designs on the bottom. This formal women dress comes in different colours and qualities. Some of its names are Thambal Leikhok, Loirang, Meiri Makhong, Sana Manbi, Pheege and Pheege Manbi etc.61-year-old Longjam Pishak Devi, wife of RK Bhubonsana of Laipham Khunou, Imphal East is among the Artisans well versed in embroideryworks of Phanek Mayek Naiba.
+        The Artisan demonstrates how different designs are manually embroidered on the bottom of Phanek Mayek Naiba at Meetei Yumjao,traditional house constructed at the Heritage Park of the ongoing Manipur Sangai Festival 2015.</item>
+        <item> Meitai Females only stitch a cloth which called Kanap Phanek. The Kanap Phanek seems in the design of skirt and Meitai females stitched it with various designs.</item>
+        <item>The world has known Sarong by different names and known to serve different purposes as well. for instance, if one goes to South Pacific Islands of Tahiti and Hawaii, the people call Sarong, “Pareos”. In Zimbabawe they are known as Zambias and in south India they are again known as Phaneks or Lungi. Sarongs are now being used as scarves, ties, skirts, shawl, towels, sheets and as beach wear.</item>
+        <item>A Phanek full of embroidery, are the major traditional costumes of Manipuri women amongst several other costumes worn during several ceremonies.</item>
+        <item>A yellow bordered beautiful white cloth.</item>
+    </string-array>
+
+    <string-array name="assam_howto" formatted="false">
+        <item>By Air</item>
+        <item>By Rail</item>
+        <item>By Road</item>
+    </string-array>
+
+    <string-array name="assam_howto_images" formatted="false">
+        <item>http://s3.india.com/wp-content/uploads/2016/10/787.jpg</item>
+        <item>http://www.indianmirror.com/indian-industries/images/railway-top-img.jpg</item>
+        <item>http://www.scind.org/content_images/full/1416652722Road.jpg</item>
+    </string-array>
+
+    <string-array name="assam_howto_content" formatted="false">
+        <item>The national carrier and private airlines have flights from major Indian metropolis to Borjhar Airport, 25km from Guwahati. The other cities in Assam that are connected by air to the rest of India are Silchar, Dibrugarh, Tezpur, Jorhat and North Lakhimpur.</item>
+        <item>You can get into Assam by train quite easily from any major city in India. There are direct train services from Calcutta, New Delhi, Mumbai, Chennai, Bangalore, Cochin and Trivandrum to Guwahati, the rail hub of Assam.</item>
+        <item>Assam is accessible by road from all the neighbouring states, such as West Bengal, Meghalaya, Manipur, Mizoram, Nagaland and Arunachal Pradesh. The roads are National Highways and thus well maintained and drivable. However, the monsoon rains hit Assam pretty hard in the months from June to September and then, driving can be hazardous.</item>
+    </string-array>
 
 </resources>
