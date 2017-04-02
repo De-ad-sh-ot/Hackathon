@@ -4,7 +4,6 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
-import android.support.v7.app.AlertDialog;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -18,12 +17,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
-import android.widget.ImageView;
 
-import com.blankj.utilcode.utils.LogUtils;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
@@ -58,6 +54,7 @@ public class MainActivity extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+       // getSupportActionBar().setTitle("Welcome To North East");
         //get firebase auth instance
         auth = FirebaseAuth.getInstance();
         //get current user
@@ -74,7 +71,11 @@ public class MainActivity extends AppCompatActivity
                     }
                 }
             };
+
         setContentView(R.layout.activity_main);
+
+        setTitle("Welcome");
+
         recyclerViewMain = (RecyclerView) findViewById(R.id.recyclerView);
 
         ArrayList<Bean> arrayList_state=new ArrayList<>();

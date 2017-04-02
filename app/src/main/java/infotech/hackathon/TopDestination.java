@@ -25,7 +25,7 @@ public class TopDestination extends AppCompatActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.common_recycler_view);
-
+setTitle("Top Destination");
         recyclerViewMain = (RecyclerView) findViewById(R.id.my_recycler_view);
 
         names = getResources().getStringArray(R.array.topdestination_places);

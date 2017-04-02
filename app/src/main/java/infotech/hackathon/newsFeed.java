@@ -1,10 +1,9 @@
 package infotech.hackathon;
 
 
-import android.content.Intent;
 import android.os.AsyncTask;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Window;
 import android.widget.Button;
 import android.widget.ListAdapter;
@@ -19,6 +18,7 @@ import org.apache.http.params.BasicHttpParams;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -50,7 +50,8 @@ public class newsFeed extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         getWindow().requestFeature(Window.FEATURE_ACTION_BAR);
         super.onCreate(savedInstanceState);
-        getSupportActionBar().setTitle("News");
+
+        getSupportActionBar().setTitle("News Feed");
         setContentView(R.layout.activity_news_feed);
 
         list = (ListView) findViewById(R.id.listView);
@@ -76,6 +77,7 @@ public class newsFeed extends ActionBarActivity {
 
                 personList.add(persons);
             }
+
             ListAdapter adapter = new SimpleAdapter(
                     newsFeed.this, personList, R.layout.list_item,
                     new String[]{TAG_state, TAG_city,TAG_news},

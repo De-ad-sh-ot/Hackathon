@@ -11,16 +11,14 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="infotech.hackathon.SplashActivity">
 
+
+
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:srcCompat="@android:drawable/screen_background_light"
-
         android:id="@+id/img_splash"
-
-
         android:src="@drawable/logo"
-
         android:layout_alignParentTop="false"
         android:layout_alignParentRight="false"
         android:layout_alignParentEnd="false"
@@ -28,4 +26,5 @@
         android:layout_marginTop="140dp"
         android:layout_marginRight="70dp"
         android:layout_marginLeft="70dp" />
+
 </RelativeLayout>

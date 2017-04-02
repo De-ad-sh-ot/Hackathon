@@ -51,7 +51,7 @@ public class UploadImageActivity extends AppCompatActivity implements View.OnCli
     protected void onCreate(Bundle savedInstanceState) {
         getWindow().requestFeature(Window.FEATURE_ACTION_BAR);
         super.onCreate(savedInstanceState);
-        getSupportActionBar().setTitle("Upload Image");
+        getSupportActionBar().setTitle("Upload Selfie");
         setContentView(R.layout.activity_upload_image);
 
         buttonChoose = (Button) findViewById(R.id.buttonChoose);

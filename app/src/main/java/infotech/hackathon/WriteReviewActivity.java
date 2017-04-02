@@ -58,7 +58,7 @@ public class WriteReviewActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         getWindow().requestFeature(Window.FEATURE_ACTION_BAR);
         super.onCreate(savedInstanceState);
-        getSupportActionBar().setTitle("REVIEW");
+        getSupportActionBar().setTitle("Write Review");
         setContentView(R.layout.activity_write_review);
         spinner=(Spinner)findViewById(R.id.spinner);
         adapter=new ArrayAdapter<String>(this,R.layout.spinner_layout,R.id.txt,listItems);
