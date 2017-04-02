@@ -31,7 +31,7 @@ public class States extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.common_recycler_view);
-
+        setTitle("States");
         recyclerViewMain = (RecyclerView) findViewById(R.id.my_recycler_view);
 
         state_name=getResources().getStringArray(R.array.states);

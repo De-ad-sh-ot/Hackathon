@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="infotech.hackathon">
+          package="infotech.hackathon">
 
     <permission
         android:name="infotech.hackathon.permission.MAPS_RECEIVE"
-        android:protectionLevel="signature" />
+        android:protectionLevel="signature"/>
 
-    <uses-permission android:name="infotech.hackathon.permission.MAPS_RECEIVE" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="infotech.hackathon.permission.MAPS_RECEIVE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
 
     <uses-feature
         android:glEsVersion="0x00020000"
-        android:required="true" />
+        android:required="true"/>
 
-    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNET"/>
     <!-- To auto-complete the email text field in the login form with the user's emails -->
-    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
-    <uses-permission android:name="android.permission.READ_PROFILE" />
-    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
 
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
@@ -31,33 +31,33 @@
     -->
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/hackathonfinal"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".SplashActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
         <activity
             android:name=".MainActivity"
             android:label="@string/title_activity_main"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".RegisterActivity" />
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".newsFeed" />
-        <activity android:name=".TopDestination" />
-        <activity android:name=".RegisterUser" />
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".RegisterActivity"/>
+        <activity android:name=".LoginActivity"/>
+        <activity android:name=".newsFeed"/>
+        <activity android:name=".TopDestination"/>
+        <activity android:name=".RegisterUser"/>
         <activity
             android:name=".Final_detail_page"
             android:label="@string/title_activity_destination_detail"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".States" />
-        <activity android:name=".State_detail" />
-        <activity android:name=".State_detail_detail" />
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".States"/>
+        <activity android:name=".State_detail"/>
+        <activity android:name=".State_detail_detail"/>
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -68,18 +68,22 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="@string/google_maps_key" />
+            android:value="@string/google_maps_key"/>
 
         <activity
             android:name=".maps.MapsActivity"
-            android:label="@string/title_activity_map_nearby_facilities" />
-        <activity android:name=".login.SignInActivity" />
-        <activity android:name=".login.SignUpActivity" />
-        <activity android:name=".WriteReviewActivity" />
-        <activity android:name=".ShowReview" />
-        <activity android:name=".UploadImageActivity" />
-        <activity android:name=".ImageListView" />
-        <activity android:name=".ViewFullImage"></activity>
+            android:label="@string/title_activity_map_nearby_facilities"/>
+        <activity android:name=".login.SignInActivity"/>
+        <activity android:name=".login.SignUpActivity"/>
+        <activity android:name=".WriteReviewActivity"/>
+        <activity android:name=".ShowReview"/>
+        <activity android:name=".UploadImageActivity"/>
+        <activity android:name=".ImageListView"/>
+        <activity android:name=".ViewFullImage"/>
+        <activity android:name=".GuideList"/>
+        <activity android:name=".ContactUs"/>
+        <activity android:name=".AboutUs">
+        </activity>
     </application>
 
 </manifest>
