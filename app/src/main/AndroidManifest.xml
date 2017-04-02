@@ -74,7 +74,12 @@
             android:name=".maps.MapsActivity"
             android:label="@string/title_activity_map_nearby_facilities" />
         <activity android:name=".login.SignInActivity" />
-        <activity android:name=".login.SignUpActivity"></activity>
+        <activity android:name=".login.SignUpActivity" />
+        <activity android:name=".WriteReviewActivity" />
+        <activity android:name=".ShowReview" />
+        <activity android:name=".UploadImageActivity" />
+        <activity android:name=".ImageListView" />
+        <activity android:name=".ViewFullImage"></activity>
     </application>
 
 </manifest>

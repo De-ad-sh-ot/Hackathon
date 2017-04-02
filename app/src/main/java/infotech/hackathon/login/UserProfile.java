@@ -6,7 +6,8 @@ public class UserProfile {
     private String username;
     private String email;
     private String mobileNo;
-    private String companyName;
+    private String name;
+    private int userType;
 
     public String getUsername() {
         return username;
@@ -32,11 +33,19 @@ public class UserProfile {
         this.mobileNo = mobileNo;
     }
 
-    public String getCompanyName() {
-        return companyName;
+    public void setUserType(int userType) {
+        this.userType = userType;
     }
 
-    public void setCompanyName(String companyName) {
-        this.companyName = companyName;
+    public int getUserType() {
+        return userType;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String companyName) {
+        this.name = companyName;
     }
 }

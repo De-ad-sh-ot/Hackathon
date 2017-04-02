@@ -16,8 +16,11 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.TextView;
 import android.widget.ImageView;
 
+import com.blankj.utilcode.utils.LogUtils;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.squareup.picasso.Picasso;
@@ -50,6 +53,7 @@ public class MainActivity extends AppCompatActivity
 
     private FirebaseAuth.AuthStateListener authListener;
     private FirebaseAuth auth;
+    private TextView userinformation;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,8 +66,7 @@ public class MainActivity extends AppCompatActivity
                 public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
                     FirebaseUser user = firebaseAuth.getCurrentUser();
                     if (user == null) {
-            // user auth state is changed - user is null
-            // launch login activity
+
                         startActivity(new Intent(MainActivity.this, SignInActivity.class)
                                 .addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK)
                                 .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
@@ -102,6 +105,13 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        View view=navigationView.getHeaderView(0);
+        userinformation = (TextView) view.findViewById(R.id.userinformation);
+
+        if(auth.getCurrentUser() != null)
+        userinformation.setText(auth.getCurrentUser().getEmail());
+
 
 //        ImageView imageView=(ImageView) (findViewById(R.id.imageView1));
 
@@ -228,8 +238,11 @@ public class MainActivity extends AppCompatActivity
             startActivity(i);
 
         } else if (id == R.id.Reviews) {
-
+            Intent k=new Intent(MainActivity.this,WriteReviewActivity.class);
+          k.putExtra("userinformation",userinformation.getText().toString());
+            startActivity(k);
         } else if (id == R.id.ContactUs) {
+
 
         } else if (id == R.id.AboutandHelp) {
 
@@ -240,7 +253,12 @@ public class MainActivity extends AppCompatActivity
             startActivity(k);
 
         }
+        else if (id == R.id.Upload) {
 
+            Intent k=new Intent(MainActivity.this,UploadImageActivity.class);
+            startActivity(k);
+
+        }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;

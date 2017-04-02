@@ -7,6 +7,8 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.Toast;
 
 import com.blankj.utilcode.utils.RegexUtils;
@@ -31,6 +33,10 @@ public class SignUpActivity extends BaseActivity {
     private EditText username;
     private EditText name;
     private EditText contactNo;
+    private RadioButton guideradiobutton;
+    private RadioButton userradiobutton;
+    int userType;
+    private RadioGroup radioGroup;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,15 +44,19 @@ public class SignUpActivity extends BaseActivity {
         setContentView(R.layout.activity_sign_up);
 
         auth = FirebaseAuth.getInstance();
-
+        radioGroup = (RadioGroup) findViewById(R.id.radiogroup1);
         btnSignIn = (Button) findViewById(R.id.btn_sign_in);
         btnSignUp = (Button) findViewById(R.id.btn_register);
         inputEmail = (EditText) findViewById(R.id.email);
         inputPassword = (EditText) findViewById(R.id.password);
-
+        guideradiobutton = (RadioButton) findViewById(R.id.radiobuttonguide);
+        userradiobutton = (RadioButton) findViewById(R.id.radiobuttonuser);
         username = (EditText)findViewById( R.id.username );
         name = (EditText)findViewById( R.id.name );
         contactNo = (EditText)findViewById( R.id.phone );
+//usertype 1 guide
+
+
 
         mDatabase = FirebaseDatabase.getInstance().getReference();
 
@@ -104,17 +114,31 @@ public class SignUpActivity extends BaseActivity {
                 if(!isInternetAvailable(SignUpActivity.this)){
                     return;
                 }
+                radioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener()
+                {
+                    public void onCheckedChanged(RadioGroup group, int checkedId) {
+                        switch(checkedId){
+                            case R.id.radiobuttonguide:
+                          userType=1;
+                                break;
+                            case R.id.radiobuttonuser:
+                         userType=2;
+                                break;
+
+                        }
+                    }
+                });
                 showProgressDialog();
 
                 final UserProfile userProfile = new UserProfile();
 
                 userProfile.setUsername(stName);
                 userProfile.setEmail(email);
-                userProfile.setCompanyName(stCompanyName);
+                userProfile.setName(stCompanyName);
                 userProfile.setMobileNo(stContactNo);
+                userProfile.setUserType(userType);
 
-                //create user
-                auth.createUserWithEmailAndPassword(email, password)
+    auth.createUserWithEmailAndPassword(email, password)
                         .addOnCompleteListener(SignUpActivity.this, new OnCompleteListener<AuthResult>() {
                             @Override
                             public void onComplete(@NonNull Task<AuthResult> task) {

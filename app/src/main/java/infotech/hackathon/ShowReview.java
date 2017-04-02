@@ -1,6 +1,5 @@
 package infotech.hackathon;
 
-
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.support.v7.app.ActionBarActivity;
@@ -26,12 +25,12 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 
-public class newsFeed extends ActionBarActivity {
+public class ShowReview extends ActionBarActivity {
     String myJSON;
     private static final String TAG_RESULTS = "result";
-    private static final String TAG_state = "state";
-    private static final String TAG_city = "city";
-    private static final String TAG_news = "news";
+    private static final String TAG_REVIEW = "review";
+    private static final String TAG_HOTEL = "hotel_name";
+    private static final String TAG_email = "email";
 
 
     JSONArray peoples = null;
@@ -50,8 +49,8 @@ public class newsFeed extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         getWindow().requestFeature(Window.FEATURE_ACTION_BAR);
         super.onCreate(savedInstanceState);
-        getSupportActionBar().setTitle("News");
-        setContentView(R.layout.activity_news_feed);
+        getSupportActionBar().setTitle("Show Review");
+        setContentView(R.layout.activity_show_review);
 
         list = (ListView) findViewById(R.id.listView);
         personList = new ArrayList<HashMap<String, String>>();
@@ -64,22 +63,23 @@ public class newsFeed extends ActionBarActivity {
             peoples = jsonObj.getJSONArray(TAG_RESULTS);
             for (int i = 0; i < peoples.length(); i++) {
                 JSONObject c = peoples.getJSONObject(i);
-                String state = c.getString(TAG_state);
-                String city = c.getString(TAG_city);
-                String news = c.getString(TAG_news);
+                String review = c.getString(TAG_REVIEW);
+                String hotel_name = c.getString(TAG_HOTEL);
+
+                String email = c.getString(TAG_email);
 
                 HashMap<String, String> persons = new HashMap<String, String>();
 
-                persons.put(TAG_state, state);
-                persons.put(TAG_city, city);
-                persons.put(TAG_news, news );
+                persons.put(TAG_REVIEW, review);
+                persons.put(TAG_HOTEL, hotel_name);
+                persons.put(TAG_email, email);
 
                 personList.add(persons);
             }
             ListAdapter adapter = new SimpleAdapter(
-                    newsFeed.this, personList, R.layout.list_item,
-                    new String[]{TAG_state, TAG_city,TAG_news},
-                    new int[]{R.id.state_name, R.id.state_city,R.id.news});
+                    ShowReview.this, personList, R.layout.review_list,
+                    new String[]{TAG_REVIEW, TAG_HOTEL,TAG_email},
+                    new int[]{R.id.review, R.id.hotel_name,R.id.tvemail});
 
             list.setAdapter(adapter);
 
@@ -95,7 +95,7 @@ public class newsFeed extends ActionBarActivity {
             @Override
             protected String doInBackground(String... params) {
                 DefaultHttpClient httpclient = new DefaultHttpClient(new BasicHttpParams());
-                HttpPost httppost = new HttpPost("http://dargalaxy.com/loginsyshackathon/admin/newsfetch.php");
+                HttpPost httppost = new HttpPost("http://dargalaxy.com/VolleyUpload/fetch5.php");
 
                 // Depends on your web service
                 httppost.setHeader("Content-type", "application/json");
@@ -136,6 +136,10 @@ public class newsFeed extends ActionBarActivity {
         GetDataJSON g = new GetDataJSON();
         g.execute();
     }
-
+    public void onBackPressed()
+    {
+        Intent j=new Intent(ShowReview.this,WriteReviewActivity.class);
+        startActivity(j);
+    }
 }
 

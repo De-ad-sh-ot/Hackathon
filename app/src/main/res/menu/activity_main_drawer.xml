@@ -21,7 +21,11 @@
         <item
             android:id="@+id/NearebyFacilities"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Nearby Facilities" />
+            android:title="NearebyFacilities" />
+        <item
+            android:id="@+id/Upload"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Upload selfie" />
     </group>
 
     <item android:title="other">
