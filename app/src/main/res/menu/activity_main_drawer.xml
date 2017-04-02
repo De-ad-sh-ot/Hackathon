@@ -26,6 +26,10 @@
             android:id="@+id/Upload"
             android:icon="@drawable/ic_menu_manage"
             android:title="Upload selfie" />
+        <item
+            android:id="@+id/Guide"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Choose Circuit" />
     </group>
 
     <item android:title="other">
