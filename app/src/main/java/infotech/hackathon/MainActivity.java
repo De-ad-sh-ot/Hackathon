@@ -43,10 +43,10 @@ public class MainActivity extends AppCompatActivity
     CommonRecyclerViewAdapter adapter;
     private boolean isUserClickedBackButton=false;
     private String[] images={
-        "http://thaitravelmart.com/uploads/tourism_news/05February2016_08.jpg",
-        "https://image.slidesharecdn.com/north-east-india-110708020221-phpapp01/95/north-east-india-tourism-2-728.jpg?cb=1310090758",
             "http://4.bp.blogspot.com/-wKpyv73Yg7U/UNKn09ODrOI/AAAAAAAAABw/R3bhvOcdO98/s1600/North-East-logo.JPG",
-        "https://image.slidesharecdn.com/north-east-india-110708020221-phpapp01/95/north-east-india-tourism-3-728.jpg?cb=1310090758",
+        "https://image.slidesharecdn.com/north-east-india-110708020221-phpapp01/95/north-east-india-tourism-2-728.jpg?cb=1310090758",
+            "http://s3.india.com/travel/wp-content/uploads/2014/12/Main11.jpg",
+            "https://image.slidesharecdn.com/north-east-india-110708020221-phpapp01/95/north-east-india-tourism-3-728.jpg?cb=1310090758",
         "http://www.thomascook.in/tcportal/images/holiday/holidayStaticPages/HolidayPhotoMaster/UN15108979.jpg",
         "https://image.slidesharecdn.com/north-east-india-110708020221-phpapp01/95/north-east-india-tourism-4-728.jpg?cb=1310090758"
     };
