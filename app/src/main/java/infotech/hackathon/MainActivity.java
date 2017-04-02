@@ -242,7 +242,8 @@ public class MainActivity extends AppCompatActivity
           k.putExtra("userinformation",userinformation.getText().toString());
             startActivity(k);
         } else if (id == R.id.ContactUs) {
-
+Intent i=new Intent(MainActivity.this,ContactUs.class);
+            startActivity(i);
 
         } else if (id == R.id.AboutandHelp) {
 

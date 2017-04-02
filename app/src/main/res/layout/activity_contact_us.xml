@@ -28,7 +28,8 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Enter Your Name"/>
+        android:hint="Enter Your Name"
+        android:id="@+id/et_name" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -36,7 +37,8 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Enter Contact Number"/>
+        android:hint="Enter Contact Number"
+        android:id="@+id/et_contact" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -44,10 +46,12 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Enter Query"/>
+        android:hint="Enter Query"
+        android:id="@+id/et_query" />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Submit"/>
+        android:text="Submit"
+        android:id="@+id/btnsubmit" />
 </LinearLayout>
 </RelativeLayout>
