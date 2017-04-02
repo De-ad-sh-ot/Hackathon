@@ -69,6 +69,7 @@ public class State_detail_detail extends AppCompatActivity {
                     default:
                         break;
                 }
+                getSupportActionBar().setTitle("Arunachal Pradesh");
                 break;
             case 1:
                 switch (ResId_state_detail)
@@ -111,6 +112,7 @@ public class State_detail_detail extends AppCompatActivity {
                     default:
                         break;
                 }
+                getSupportActionBar().setTitle("Assam");
                 break;
             case 2:
                 switch (ResId_state_detail)
@@ -153,6 +155,7 @@ public class State_detail_detail extends AppCompatActivity {
                     default:
                         break;
                 }
+                getSupportActionBar().setTitle("Manipur");
                 break;
             case 3:
                 switch (ResId_state_detail)
@@ -195,6 +198,7 @@ public class State_detail_detail extends AppCompatActivity {
                     default:
                         break;
                 }
+                getSupportActionBar().setTitle("Meghalaya");
                 break;
             case 4:
                 switch (ResId_state_detail)
@@ -237,6 +241,7 @@ public class State_detail_detail extends AppCompatActivity {
                     default:
                         break;
                 }
+                getSupportActionBar().setTitle("Mizoram");
                 break;
             case 5:
                 switch (ResId_state_detail)
@@ -279,6 +284,7 @@ public class State_detail_detail extends AppCompatActivity {
                     default:
                         break;
                 }
+                getSupportActionBar().setTitle("Nagaland");
                 break;
             case 6:
                 switch (ResId_state_detail)
@@ -321,8 +327,10 @@ public class State_detail_detail extends AppCompatActivity {
                     default:
                         break;
                 }
+                getSupportActionBar().setTitle("Sikkim");
                 break;
             case 7:
+                getSupportActionBar().setTitle("Tripura");
                 switch (ResId_state_detail)
                 {
                     case 0:

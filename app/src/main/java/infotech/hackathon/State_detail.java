@@ -22,7 +22,7 @@ public class State_detail extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.common_recycler_view);
-
+        setTitle("Explore Your State");
         recyclerViewMain=(RecyclerView)findViewById(R.id.my_recycler_view);
         ResId_state=getIntent().getExtras().getInt("ResId");
 
