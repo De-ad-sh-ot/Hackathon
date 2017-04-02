@@ -21,11 +21,11 @@
         <item
             android:id="@+id/NearebyFacilities"
             android:icon="@drawable/ic_menu_manage"
-            android:title="NearebyFacilities" />
+            android:title="Nearby Facilities" />
         <item
             android:id="@+id/Upload"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Upload selfie" />
+            android:title="Upload Selfie" />
     </group>
 
     <item android:title="other">

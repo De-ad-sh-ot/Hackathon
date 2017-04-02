@@ -31,28 +31,28 @@ public class State_detail extends AppCompatActivity {
         switch(ResId_state)
         {
             case 0:
-                state_detail_images=getResources().getStringArray(R.array.arunachal_detail);
+                state_detail_images=getResources().getStringArray(R.array.assam_detail);
                 break;
             case 1:
                 state_detail_images=getResources().getStringArray(R.array.assam_detail);
                 break;
             case 2:
-                state_detail_images=getResources().getStringArray(R.array.manipur_detail);
+                state_detail_images=getResources().getStringArray(R.array.assam_detail);
                 break;
             case 3:
-                state_detail_images=getResources().getStringArray(R.array.meghalaya_detail);
+                state_detail_images=getResources().getStringArray(R.array.assam_detail);
                 break;
             case 4:
-                state_detail_images=getResources().getStringArray(R.array.mizoram_detail);
+                state_detail_images=getResources().getStringArray(R.array.assam_detail);
                 break;
             case 5:
-                state_detail_images=getResources().getStringArray(R.array.nagaland_detail);
+                state_detail_images=getResources().getStringArray(R.array.assam_detail);
                 break;
             case 6:
-                state_detail_images=getResources().getStringArray(R.array.sikkim_detail);
+                state_detail_images=getResources().getStringArray(R.array.assam_detail);
                 break;
             case 7:
-                state_detail_images=getResources().getStringArray(R.array.tripura_detail);
+                state_detail_images=getResources().getStringArray(R.array.assam_detail);
                 break;
 
         }
