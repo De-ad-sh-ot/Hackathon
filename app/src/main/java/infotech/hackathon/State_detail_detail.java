@@ -27,39 +27,49 @@ public class State_detail_detail extends AppCompatActivity {
         recyclerViewMain=(RecyclerView)findViewById(R.id.my_recycler_view);
         ResId_state_detail=getIntent().getExtras().getInt("ResId");
 
-        state_detail_detail_images=new String[]{
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Indian_rhinoceros%2Ckaziranga_national_park.jpg/1280px-Indian_rhinoceros%2Ckaziranga_national_park.jpg",
-                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Indian_rhinoceros%2Ckaziranga_national_park.jpg/1280px-Indian_rhinoceros%2Ckaziranga_national_park.jpg",
-                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Indian_rhinoceros%2Ckaziranga_national_park.jpg/1280px-Indian_rhinoceros%2Ckaziranga_national_park.jpg",
-                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Indian_rhinoceros%2Ckaziranga_national_park.jpg/1280px-Indian_rhinoceros%2Ckaziranga_national_park.jpg",
-                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Indian_rhinoceros%2Ckaziranga_national_park.jpg/1280px-Indian_rhinoceros%2Ckaziranga_national_park.jpg",
-                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Indian_rhinoceros%2Ckaziranga_national_park.jpg/1280px-Indian_rhinoceros%2Ckaziranga_national_park.jpg",
-                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Indian_rhinoceros%2Ckaziranga_national_park.jpg/1280px-Indian_rhinoceros%2Ckaziranga_national_park.jpg"
-        };
-
         switch(State_detail.ResId_state){
             case 0:
                 switch (ResId_state_detail)
                 {
-                    case 0:
-                        state_detail_detail_name=getResources().getStringArray(R.array.arunachal_tourist);
-                        state_detail_detail_images=getResources().getStringArray(R.array.arunachal_tourist_images);
+                    case 0://Tourist
+                        state_detail_detail_name=getResources().getStringArray(R.array.assam_tourist);
+                        state_detail_detail_images=getResources().getStringArray(R.array.assam_tourist_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.assam_tourist_content);
                         break;
-                    case 1:
-                        state_detail_detail_name=getResources().getStringArray(R.array.arunachal_festival);
+                    case 1://Handlooms and Handicrafts
+                        state_detail_detail_name=getResources().getStringArray(R.array.assam_handlooms);
+                        state_detail_detail_images=getResources().getStringArray(R.array.assam_handlooms_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.assam_handlooms_content);
                         break;
-                    case 2:
+                    case 2://Dresses
+                        state_detail_detail_name=getResources().getStringArray(R.array.manipur_dresses);
+                        state_detail_detail_images=getResources().getStringArray(R.array.manipur_dresses_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.manipur_dresses_content);
+                        break;
+                    case 3://Festivals
+                        state_detail_detail_name=getResources().getStringArray(R.array.sikkim_festival);
+                        state_detail_detail_images=getResources().getStringArray(R.array.sikkim_festival_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.sikkim_festival_content);
+                        break;
+                    case 4://Dance
                         state_detail_detail_name=getResources().getStringArray(R.array.arunachal_dance);
+                        state_detail_detail_images=getResources().getStringArray(R.array.arunachal_dance_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.arunachal_dance_content);
                         break;
-                    case 3:
-                        state_detail_detail_name=getResources().getStringArray(R.array.arunachal_cuisine);
+                    case 5://Cuisines
+                        state_detail_detail_name=getResources().getStringArray(R.array.assam_cuisine);
+                        state_detail_detail_images=getResources().getStringArray(R.array.assam_cuisine_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.assam_cuisine_content);
                         break;
-                    case 4:
-                        state_detail_detail_name=getResources().getStringArray(R.array.arunachal_how);
+                    case 6://How to reach
+                        state_detail_detail_name=getResources().getStringArray(R.array.assam_howto);
+                        state_detail_detail_images=getResources().getStringArray(R.array.assam_howto_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.assam_howto_content);
                         break;
                     default:
                         break;
                 }
+                getSupportActionBar().setTitle("Arunachal Pradesh");
                 break;
             case 1:
                 switch (ResId_state_detail)
@@ -67,157 +77,296 @@ public class State_detail_detail extends AppCompatActivity {
                     case 0:
                         state_detail_detail_name=getResources().getStringArray(R.array.assam_tourist);
                         state_detail_detail_images=getResources().getStringArray(R.array.assam_tourist_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.assam_tourist_content);
                         break;
                     case 1:
-                        state_detail_detail_name=getResources().getStringArray(R.array.assam_festival);
-                        state_detail_detail_images=getResources().getStringArray(R.array.assam_festival_images);
+                        state_detail_detail_name=getResources().getStringArray(R.array.assam_handlooms);
+                        state_detail_detail_images=getResources().getStringArray(R.array.assam_handlooms_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.assam_handlooms_content);
                         break;
                     case 2:
+                        state_detail_detail_name=getResources().getStringArray(R.array.manipur_dresses);
+                        state_detail_detail_images=getResources().getStringArray(R.array.manipur_dresses_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.manipur_dresses_content);
+                        break;
+                    case 3:
+                        state_detail_detail_name=getResources().getStringArray(R.array.assam_festival);
+                        state_detail_detail_images=getResources().getStringArray(R.array.assam_festival_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.assam_festival_content);
+                        break;
+                    case 4:
                         state_detail_detail_name=getResources().getStringArray(R.array.assam_dance);
                         state_detail_detail_images=getResources().getStringArray(R.array.assam_dance_images);
                         state_detail_detail_content=getResources().getStringArray(R.array.assam_dance_content);
                         break;
-                    case 3:
+                    case 5:
                         state_detail_detail_name=getResources().getStringArray(R.array.assam_cuisine);
                         state_detail_detail_images=getResources().getStringArray(R.array.assam_cuisine_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.assam_cuisine_content);
                         break;
-                    case 4:
-                        state_detail_detail_name=getResources().getStringArray(R.array.assam_how);
+                    case 6:
+                        state_detail_detail_name=getResources().getStringArray(R.array.assam_howto);
+                        state_detail_detail_images=getResources().getStringArray(R.array.assam_howto_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.assam_howto_content);
                         break;
                     default:
                         break;
                 }
+                getSupportActionBar().setTitle("Assam");
                 break;
             case 2:
                 switch (ResId_state_detail)
                 {
                     case 0:
-                        state_detail_detail_name=getResources().getStringArray(R.array.manipur_tourist);
+                        state_detail_detail_name=getResources().getStringArray(R.array.assam_tourist);
+                        state_detail_detail_images=getResources().getStringArray(R.array.assam_tourist_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.assam_tourist_content);
                         break;
                     case 1:
-                        state_detail_detail_name=getResources().getStringArray(R.array.manipur_festival);
+                        state_detail_detail_name=getResources().getStringArray(R.array.assam_handlooms);
+                        state_detail_detail_images=getResources().getStringArray(R.array.assam_handlooms_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.assam_handlooms_content);
                         break;
                     case 2:
-                        state_detail_detail_name=getResources().getStringArray(R.array.manipur_dance);
+                        state_detail_detail_name=getResources().getStringArray(R.array.manipur_dresses);
+                        state_detail_detail_images=getResources().getStringArray(R.array.manipur_dresses_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.manipur_dresses_content);
                         break;
                     case 3:
-                        state_detail_detail_name=getResources().getStringArray(R.array.manipur_cuisine);
+                        state_detail_detail_name=getResources().getStringArray(R.array.sikkim_festival);
+                        state_detail_detail_images=getResources().getStringArray(R.array.sikkim_festival_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.sikkim_festival_content);
                         break;
                     case 4:
-                        state_detail_detail_name=getResources().getStringArray(R.array.manipur_how);
+                        state_detail_detail_name=getResources().getStringArray(R.array.arunachal_dance);
+                        state_detail_detail_images=getResources().getStringArray(R.array.arunachal_dance_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.arunachal_dance_content);
+                        break;
+                    case 5:
+                        state_detail_detail_name=getResources().getStringArray(R.array.assam_cuisine);
+                        state_detail_detail_images=getResources().getStringArray(R.array.assam_cuisine_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.assam_cuisine_content);
+                        break;
+                    case 6:
+                        state_detail_detail_name=getResources().getStringArray(R.array.assam_howto);
+                        state_detail_detail_images=getResources().getStringArray(R.array.assam_howto_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.assam_howto_content);
                         break;
                     default:
                         break;
                 }
+                getSupportActionBar().setTitle("Manipur");
                 break;
             case 3:
                 switch (ResId_state_detail)
                 {
                     case 0:
-                        state_detail_detail_name=getResources().getStringArray(R.array.meghalaya_tourist);
+                        state_detail_detail_name=getResources().getStringArray(R.array.assam_tourist);
+                        state_detail_detail_images=getResources().getStringArray(R.array.assam_tourist_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.assam_tourist_content);
                         break;
                     case 1:
-                        state_detail_detail_name=getResources().getStringArray(R.array.meghalaya_festival);
+                        state_detail_detail_name=getResources().getStringArray(R.array.assam_handlooms);
+                        state_detail_detail_images=getResources().getStringArray(R.array.assam_handlooms_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.assam_handlooms_content);
                         break;
                     case 2:
-                        state_detail_detail_name=getResources().getStringArray(R.array.meghalaya_dance);
+                        state_detail_detail_name=getResources().getStringArray(R.array.manipur_dresses);
+                        state_detail_detail_images=getResources().getStringArray(R.array.manipur_dresses_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.manipur_dresses_content);
                         break;
                     case 3:
-                        state_detail_detail_name=getResources().getStringArray(R.array.meghalaya_cuisine);
+                        state_detail_detail_name=getResources().getStringArray(R.array.assam_festival);
+                        state_detail_detail_images=getResources().getStringArray(R.array.assam_festival_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.assam_festival_content);
                         break;
                     case 4:
-                        state_detail_detail_name=getResources().getStringArray(R.array.meghalaya_how);
+                        state_detail_detail_name=getResources().getStringArray(R.array.assam_dance);
+                        state_detail_detail_images=getResources().getStringArray(R.array.assam_dance_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.assam_dance_content);
+                        break;
+                    case 5:
+                        state_detail_detail_name=getResources().getStringArray(R.array.assam_cuisine);
+                        state_detail_detail_images=getResources().getStringArray(R.array.assam_cuisine_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.assam_cuisine_content);
+                        break;
+                    case 6:
+                        state_detail_detail_name=getResources().getStringArray(R.array.assam_howto);
+                        state_detail_detail_images=getResources().getStringArray(R.array.assam_howto_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.assam_howto_content);
                         break;
                     default:
                         break;
                 }
+                getSupportActionBar().setTitle("Meghalaya");
                 break;
             case 4:
                 switch (ResId_state_detail)
                 {
                     case 0:
-                        state_detail_detail_name=getResources().getStringArray(R.array.mizoram_tourist);
+                        state_detail_detail_name=getResources().getStringArray(R.array.assam_tourist);
+                        state_detail_detail_images=getResources().getStringArray(R.array.assam_tourist_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.assam_tourist_content);
                         break;
                     case 1:
-                        state_detail_detail_name=getResources().getStringArray(R.array.mizoram_festival);
+                        state_detail_detail_name=getResources().getStringArray(R.array.assam_handlooms);
+                        state_detail_detail_images=getResources().getStringArray(R.array.assam_handlooms_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.assam_handlooms_content);
                         break;
                     case 2:
-                        state_detail_detail_name=getResources().getStringArray(R.array.mizoram_dance);
+                        state_detail_detail_name=getResources().getStringArray(R.array.manipur_dresses);
+                        state_detail_detail_images=getResources().getStringArray(R.array.manipur_dresses_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.manipur_dresses_content);
                         break;
                     case 3:
-                        state_detail_detail_name=getResources().getStringArray(R.array.mizoram_cuisine);
+                        state_detail_detail_name=getResources().getStringArray(R.array.sikkim_festival);
+                        state_detail_detail_images=getResources().getStringArray(R.array.sikkim_festival_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.sikkim_festival_content);
                         break;
                     case 4:
-                        state_detail_detail_name=getResources().getStringArray(R.array.mizoram_how);
+                        state_detail_detail_name=getResources().getStringArray(R.array.arunachal_dance);
+                        state_detail_detail_images=getResources().getStringArray(R.array.arunachal_dance_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.arunachal_dance_content);
+                        break;
+                    case 5:
+                        state_detail_detail_name=getResources().getStringArray(R.array.assam_cuisine);
+                        state_detail_detail_images=getResources().getStringArray(R.array.assam_cuisine_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.assam_cuisine_content);
+                        break;
+                    case 6:
+                        state_detail_detail_name=getResources().getStringArray(R.array.assam_howto);
+                        state_detail_detail_images=getResources().getStringArray(R.array.assam_howto_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.assam_howto_content);
                         break;
                     default:
                         break;
                 }
+                getSupportActionBar().setTitle("Mizoram");
                 break;
             case 5:
                 switch (ResId_state_detail)
                 {
                     case 0:
-                        state_detail_detail_name=getResources().getStringArray(R.array.nagaland_tourist);
+                        state_detail_detail_name=getResources().getStringArray(R.array.assam_tourist);
+                        state_detail_detail_images=getResources().getStringArray(R.array.assam_tourist_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.assam_tourist_content);
                         break;
                     case 1:
-                        state_detail_detail_name=getResources().getStringArray(R.array.nagaland_festival);
+                        state_detail_detail_name=getResources().getStringArray(R.array.assam_handlooms);
+                        state_detail_detail_images=getResources().getStringArray(R.array.assam_handlooms_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.assam_handlooms_content);
                         break;
                     case 2:
-                        state_detail_detail_name=getResources().getStringArray(R.array.nagaland_dance);
+                        state_detail_detail_name=getResources().getStringArray(R.array.manipur_dresses);
+                        state_detail_detail_images=getResources().getStringArray(R.array.manipur_dresses_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.manipur_dresses_content);
                         break;
                     case 3:
-                        state_detail_detail_name=getResources().getStringArray(R.array.nagaland_cuisine);
+                        state_detail_detail_name=getResources().getStringArray(R.array.assam_festival);
+                        state_detail_detail_images=getResources().getStringArray(R.array.assam_festival_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.assam_festival_content);
                         break;
                     case 4:
-                        state_detail_detail_name=getResources().getStringArray(R.array.nagaland_how);
+                        state_detail_detail_name=getResources().getStringArray(R.array.assam_dance);
+                        state_detail_detail_images=getResources().getStringArray(R.array.assam_dance_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.assam_dance_content);
+                        break;
+                    case 5:
+                        state_detail_detail_name=getResources().getStringArray(R.array.assam_cuisine);
+                        state_detail_detail_images=getResources().getStringArray(R.array.assam_cuisine_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.assam_cuisine_content);
+                        break;
+                    case 6:
+                        state_detail_detail_name=getResources().getStringArray(R.array.assam_howto);
+                        state_detail_detail_images=getResources().getStringArray(R.array.assam_howto_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.assam_howto_content);
                         break;
                     default:
                         break;
                 }
+                getSupportActionBar().setTitle("Nagaland");
                 break;
             case 6:
                 switch (ResId_state_detail)
                 {
                     case 0:
-                        state_detail_detail_name=getResources().getStringArray(R.array.sikkim_tourist);
-                        state_detail_detail_images=getResources().getStringArray(R.array.sikkim_tourist_images);
+                        state_detail_detail_name=getResources().getStringArray(R.array.assam_tourist);
+                        state_detail_detail_images=getResources().getStringArray(R.array.assam_tourist_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.assam_tourist_content);
                         break;
                     case 1:
-                        state_detail_detail_name=getResources().getStringArray(R.array.sikkim_festival);
-                        state_detail_detail_images=getResources().getStringArray(R.array.sikkim_festival_images);
+                        state_detail_detail_name=getResources().getStringArray(R.array.assam_handlooms);
+                        state_detail_detail_images=getResources().getStringArray(R.array.assam_handlooms_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.assam_handlooms_content);
                         break;
                     case 2:
-                        state_detail_detail_name=getResources().getStringArray(R.array.sikkim_dance);
-                        state_detail_detail_images=getResources().getStringArray(R.array.sikkim_dance_images);
+                        state_detail_detail_name=getResources().getStringArray(R.array.manipur_dresses);
+                        state_detail_detail_images=getResources().getStringArray(R.array.manipur_dresses_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.manipur_dresses_content);
                         break;
                     case 3:
-                        state_detail_detail_name=getResources().getStringArray(R.array.sikkim_cuisine);
+                        state_detail_detail_name=getResources().getStringArray(R.array.sikkim_festival);
+                        state_detail_detail_images=getResources().getStringArray(R.array.sikkim_festival_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.sikkim_festival_content);
                         break;
                     case 4:
-                        state_detail_detail_name=getResources().getStringArray(R.array.sikkim_how);
+                        state_detail_detail_name=getResources().getStringArray(R.array.sikkim_dance);
+                        state_detail_detail_images=getResources().getStringArray(R.array.sikkim_dance_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.sikkim_dance_content);
+                        break;
+                    case 5:
+                        state_detail_detail_name=getResources().getStringArray(R.array.assam_cuisine);
+                        state_detail_detail_images=getResources().getStringArray(R.array.assam_cuisine_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.assam_cuisine_content);
+                        break;
+                    case 6:
+                        state_detail_detail_name=getResources().getStringArray(R.array.assam_howto);
+                        state_detail_detail_images=getResources().getStringArray(R.array.assam_howto_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.assam_howto_content);
                         break;
                     default:
                         break;
                 }
+                getSupportActionBar().setTitle("Sikkim");
                 break;
             case 7:
+                getSupportActionBar().setTitle("Tripura");
                 switch (ResId_state_detail)
                 {
                     case 0:
-                        state_detail_detail_name=getResources().getStringArray(R.array.tripura_tourist);
+                        state_detail_detail_name=getResources().getStringArray(R.array.assam_tourist);
+                        state_detail_detail_images=getResources().getStringArray(R.array.assam_tourist_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.assam_tourist_content);
                         break;
                     case 1:
-                        state_detail_detail_name=getResources().getStringArray(R.array.tripura_festival);
+                        state_detail_detail_name=getResources().getStringArray(R.array.assam_handlooms);
+                        state_detail_detail_images=getResources().getStringArray(R.array.assam_handlooms_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.assam_handlooms_content);
                         break;
                     case 2:
-                        state_detail_detail_name=getResources().getStringArray(R.array.tripura_dance);
+                        state_detail_detail_name=getResources().getStringArray(R.array.manipur_dresses);
+                        state_detail_detail_images=getResources().getStringArray(R.array.manipur_dresses_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.manipur_dresses_content);
                         break;
                     case 3:
-                        state_detail_detail_name=getResources().getStringArray(R.array.tripura_cuisine);
+                        state_detail_detail_name=getResources().getStringArray(R.array.assam_festival);
+                        state_detail_detail_images=getResources().getStringArray(R.array.assam_festival_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.assam_festival_content);
                         break;
                     case 4:
-                        state_detail_detail_name=getResources().getStringArray(R.array.tripura_how);
+                        state_detail_detail_name=getResources().getStringArray(R.array.assam_dance);
+                        state_detail_detail_images=getResources().getStringArray(R.array.assam_dance_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.assam_dance_content);
+                        break;
+                    case 5:
+                        state_detail_detail_name=getResources().getStringArray(R.array.assam_cuisine);
+                        state_detail_detail_images=getResources().getStringArray(R.array.assam_cuisine_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.assam_cuisine_content);
+                        break;
+                    case 6:
+                        state_detail_detail_name=getResources().getStringArray(R.array.assam_howto);
+                        state_detail_detail_images=getResources().getStringArray(R.array.assam_howto_images);
+                        state_detail_detail_content=getResources().getStringArray(R.array.assam_howto_content);
                         break;
                     default:
                         break;

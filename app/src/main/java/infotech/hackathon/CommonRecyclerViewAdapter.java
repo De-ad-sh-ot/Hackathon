@@ -2,7 +2,6 @@ package infotech.hackathon;
 
 import android.app.Activity;
 import android.content.Context;
-import android.graphics.BitmapFactory;
 import android.graphics.Point;
 import android.support.v7.widget.RecyclerView;
 import android.view.Display;
@@ -12,7 +11,6 @@ import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.squareup.picasso.Callback;

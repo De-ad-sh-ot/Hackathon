@@ -11,8 +11,9 @@
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Choose  Selfie"
-        android:id="@+id/buttonChoose" />
+        android:text="Choose Selfie"
+        android:id="@+id/buttonChoose"
+        style="@style/Widget.AppCompat.Button.Colored" />
 
     <ImageView
         android:layout_width="fill_parent"
@@ -41,15 +42,17 @@
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Upload Selfie"
-        android:id="@+id/buttonUpload" />
+        android:text="Upload selfie"
+        android:id="@+id/buttonUpload"
+        style="@android:style/Widget.Button" />
 
 
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="View Selfie"
-        android:id="@+id/buttonViewImage" />
+        android:id="@+id/buttonViewImage"
+        style="@android:style/Widget.Button" />
 
 
 </LinearLayout>

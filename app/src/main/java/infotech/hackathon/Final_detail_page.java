@@ -36,6 +36,7 @@ public class Final_detail_page extends AppCompatActivity {
         collapsingToolbar.setCollapsedTitleTextAppearance(R.style.CollapsedAppBar);
         collapsingToolbar.setExpandedTitleTextAppearance(R.style.ExpandedAppBar);
 
+        fab = (FloatingActionButton) findViewById(R.id.fab);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar_destination_detail);
         setSupportActionBar(toolbar);
 
@@ -63,7 +64,7 @@ public class Final_detail_page extends AppCompatActivity {
             {
                 pageTitle = State_detail_detail.state_detail_detail_name[ResId];
                 pageImage = State_detail_detail.state_detail_detail_images[ResId];
-//                pageContent=State_detail_detail.state_detail_detail_content[ResId];
+                pageContent=State_detail_detail.state_detail_detail_content[ResId];
 
                 textView = (TextView) findViewById(R.id.textView_content);
                 textView.setText(pageContent);
@@ -80,7 +81,6 @@ public class Final_detail_page extends AppCompatActivity {
                     fab.hide();
             }
 
-            fab = (FloatingActionButton) findViewById(R.id.fab);
             fab.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
