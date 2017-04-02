@@ -69,6 +69,21 @@ public class SignUpActivity extends BaseActivity {
             }
         });
 
+        radioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener()
+        {
+            public void onCheckedChanged(RadioGroup group, int checkedId) {
+                switch(checkedId){
+                    case R.id.radiobuttonguide:
+                        userType=1;
+                        break;
+                    case R.id.radiobuttonuser:
+                        userType=2;
+                        break;
+
+                }
+            }
+        });
+
         btnSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -114,20 +129,7 @@ public class SignUpActivity extends BaseActivity {
                 if(!isInternetAvailable(SignUpActivity.this)){
                     return;
                 }
-                radioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener()
-                {
-                    public void onCheckedChanged(RadioGroup group, int checkedId) {
-                        switch(checkedId){
-                            case R.id.radiobuttonguide:
-                          userType=1;
-                                break;
-                            case R.id.radiobuttonuser:
-                         userType=2;
-                                break;
 
-                        }
-                    }
-                });
                 showProgressDialog();
 
                 final UserProfile userProfile = new UserProfile();
