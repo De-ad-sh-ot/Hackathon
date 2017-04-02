@@ -703,7 +703,7 @@ During the Ambubachi Mela in Guwahati, the doors of the Kamakhya Temple remain c
         <item>apf6</item>
         <item>apf7</item>
     </string-array>
-    
+
     <string-array name="arunachal_detail" formatted="false">
         <item>http://www.letsseeindia.com/upload/city/Tawang.JPG</item>
         <item>https://tmi2-tourmyindiapvtlt.netdna-ssl.com/blog/wp-content/uploads/2014/10/Lossar-Festival.jpg</item>
@@ -1137,37 +1137,37 @@ On the tenth day, the elders in every family apply \'tika\' on the young ones an
     <string name="title_activity_map_nearby_facilities">Map</string>
 
     <string name="hello_world">Hello world!</string>
-        <string name="str_btn_find">Find</string>
+    <string name="str_btn_find">Find</string>
 
-        <string-array name="place_type">
-            <item>airport</item>
-            <item>atm</item>
-            <item>bank</item>
-            <item>bus_station</item>
-            <item>church</item>
-            <item>doctor</item>
-            <item>hospital</item>
-            <item>mosque</item>
-            <item>movie_theater</item>
-            <item>hindu_temple</item>
-            <item>restaurant</item>
-        </string-array>
+    <string-array name="place_type">
+        <item>airport</item>
+        <item>atm</item>
+        <item>bank</item>
+        <item>bus_station</item>
+        <item>church</item>
+        <item>doctor</item>
+        <item>hospital</item>
+        <item>mosque</item>
+        <item>movie_theater</item>
+        <item>hindu_temple</item>
+        <item>restaurant</item>
+    </string-array>
 
-        <string-array name="place_type_name">
-            <item>Airport</item>
-            <item>ATM</item>
-            <item>Bank</item>
-            <item>Bus Station</item>
-            <item>Church</item>
-            <item>Doctor</item>
-            <item>Hospital</item>
-            <item>Mosque</item>
-            <item>Movie Theater</item>1
-            <item>Hindu Temple</item>
-            <item>Restaurant</item>
-        </string-array>
+    <string-array name="place_type_name">
+        <item>Airport</item>
+        <item>ATM</item>
+        <item>Bank</item>
+        <item>Bus Station</item>
+        <item>Church</item>
+        <item>Doctor</item>
+        <item>Hospital</item>
+        <item>Mosque</item>
+        <item>Movie Theater</item>1
+        <item>Hindu Temple</item>
+        <item>Restaurant</item>
+    </string-array>
 
-   <string name="hint_email">Email</string>
+    <string name="hint_email">Email</string>
 
     <string name="hint_password">Password</string>
     <string name="hint_name">Fullname</string>

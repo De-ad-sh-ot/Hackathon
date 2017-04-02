@@ -21,6 +21,9 @@
     <color name="btn_logut_bg">#ff6861</color>
     <color name="fab_background">#747a73</color>
     <color name="white_one">#ffffff</color>
+    <color name="flag1">#f56505</color>
+    <color name="flag2">#ffffff</color>
+    <color name="flag3">#086922</color>
 
 
 </resources>
