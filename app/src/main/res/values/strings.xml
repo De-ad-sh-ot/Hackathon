@@ -301,6 +301,7 @@ In a beautiful hillock surrounded by amazing beauty and greenery, is situated a 
         <item>Festivals</item>
         <item>Music &amp; Dances</item>
         <item>Cuisines</item>
+        <item>Handloom And Handicraft</item>
         <item>How to reach?</item>
     </string-array>
 
@@ -611,6 +612,79 @@ In a beautiful hillock surrounded by amazing beauty and greenery, is situated a 
         <item>apf6</item>
         <item>apf7</item>
     </string-array>
+    
+    <string-array name="arunachal_detail" formatted="false">
+        <item>http://www.letsseeindia.com/upload/city/Tawang.JPG</item>
+        <item>https://tmi2-tourmyindiapvtlt.netdna-ssl.com/blog/wp-content/uploads/2014/10/Lossar-Festival.jpg</item>
+        <item>http://www.storyofindia.com/images/Music%20and%20Dance/Classical%20Music%20Performance.jpg</item>
+        <item>http://www.nelive.in/sites/default/files/Assam_Pitha-1.jpg</item>
+        <item>http://www.indianmirror.com/culture/indian-specialties/images/cane.jpg</item>
+        <item>https://i.ytimg.com/vi/xXFkV_N3Zvs/hqdefault.jpg</item>
+    </string-array>
+
+    <string-array name="assam_detail" formatted="false">
+        <item>http://www.assamspider.com/attachments/Resources/3752-30536-kamakhya-temple-assam.jpg</item>
+        <item>http://www.theholidayindia.com/blog/wp-content/uploads/2015/10/Bihu-Dance-Assam-810x539.jpg</item>
+        <item>http://bomdilabuddhamahotsava.com/images/s.jpg</item>
+        <item>http://www.nelive.in/sites/default/files/fish%20stew.jpg</item>
+        <item>http://arunachalpra.desh.mobi/image-of/carpetmaking-arunachal-pradesh.jpg</item>
+        <item>http://2.bp.blogspot.com/-VrpDwQO1C9U/VOX8Rd7EiiI/AAAAAAAAq9g/SY4x8j2zLzo/s1600/Sela%2BPass%2BLake%2Btawang%2Barunachal%2Bpradesh%2Btourism%2Bindia.jpg.</item>
+    </string-array>
+
+    <string-array name="manipur_detail" formatted="false">
+        <item>http://www.holidayiq.com/destreviewimages/Bishnupur-9418_19.jpg</item>
+        <item>http://2.bp.blogspot.com/-FaqtUjnnUm8/VG7Q-lZf8yI/AAAAAAAAAU4/fbHXkngo_kU/s1600/Sangai%2BFestival%2Bof%2BManipur.jpg</item>
+        <item>http://www.sumansarawgi.com/images/ManipuriCulture_DanceStage.jpg</item>
+        <item>http://www.nelive.in/sites/default/files/Assam_Pitha-1.jpg</item>
+        <item>http://3.bp.blogspot.com/-hsKC4R1Hzv8/T8qZtNOApPI/AAAAAAAAADI/B1ERHn6CjwY/s1600/Handloom-and-Handicrafts1.jpg</item>
+        <item>http://images.newsx.com/wp-content/uploads/2017/03/manipur-econo.jpg</item>
+    </string-array>
+
+    <string-array name="meghalaya_detail">
+        <item>https://s-media-cache-ak0.pinimg.com/originals/8f/15/40/8f15403456b25e640237567927abf3da.jpg</item>
+        <item>https://tmi2-tourmyindiapvtlt.netdna-ssl.com/blog/wp-content/uploads/2014/10/Lossar-Festival.jpg</item>
+        <item>http://www.storyofindia.com/images/Music%20and%20Dance/Classical%20Music%20Performance.jpg</item>
+        <item>http://www.nelive.in/sites/default/files/fish%20stew.jpg</item>
+        <item>http://arunachalpra.desh.mobi/image-of/carpetmaking-arunachal-pradesh.jpg</item>
+        <item>https://i.ytimg.com/vi/xXFkV_N3Zvs/hqdefault.jpg</item>
+    </string-array>
+
+    <string-array name="mizoram_detail" formatted="false">
+        <item>http://www.honeymoonpackagesdeals.com/wp-content/uploads/2013/03/Aizawl.jpg</item>
+        <item>http://www.travelwhistle.com/wp-content/uploads/2016/01/Chap-Char-Kut-Festival-Mizoram.jpg</item>
+        <item>http://www.storyofindia.com/images/Music%20and%20Dance/Classical%20Music%20Performance.jpg</item>
+        <item>http://www.onlytravelguide.com/arunachal-pradesh/cuisine/poora-mach-big.jpg</item>
+        <item>http://3.bp.blogspot.com/-hsKC4R1Hzv8/T8qZtNOApPI/AAAAAAAAADI/B1ERHn6CjwY/s1600/Handloom-and-Handicrafts1.jpg</item>
+        <item>http://s3.india.com/travel/wp-content/uploads/2015/08/mizoram.jpg</item>
+    </string-array>
+
+    <string-array name="nagaland_detail" formatted="false">
+        <item>http://naga.gov.ph/wp-content/uploads/2012/10/IMG_0662.jpg</item>
+        <item>https://tmi2-tourmyindiapvtlt.netdna-ssl.com/blog/wp-content/uploads/2014/10/Lossar-Festival.jpg</item>
+        <item>http://www.storyofindia.com/images/Music%20and%20Dance/Classical%20Music%20Performance.jpg</item>
+        <item>http://www.nelive.in/sites/default/files/fish%20stew.jpg</item>
+        <item>http://arunachalpra.desh.mobi/image-of/carpetmaking-arunachal-pradesh.jpg</item>
+        <item>https://i.ytimg.com/vi/xXFkV_N3Zvs/hqdefault.jpg</item>
+    </string-array>
+
+    <string-array name="sikkim_detail" formatted="false">
+        <item>http://www.esikkimtourism.in/wp-content/uploads/2015/03/Lachung.jpg</item>
+        <item>http://www.trekkinginsikkim.com/images/sikkim-festivals-tour6.jpg</item>
+        <item>http://www.storyofindia.com/images/Music%20and%20Dance/Classical%20Music%20Performance.jpg</item>
+        <item>http://www.nelive.in/sites/default/files/Assam_Pitha-1.jpg</item>
+        <item>http://www.indianmirror.com/culture/indian-specialties/images/cane.jpg</item>
+        <item>https://i.ytimg.com/vi/xXFkV_N3Zvs/hqdefault.jpg</item>
+    </string-array>
+
+    <string-array name="tripura_detail" formatted="false">
+        <item>http://linktrav.com/userfiles/image/unakoti.jpg</item>
+        <item>http://www.travelwhistle.com/wp-content/uploads/2016/01/Chap-Char-Kut-Festival-Mizoram.jpg</item>
+        <item>http://www.storyofindia.com/images/Music%20and%20Dance/Classical%20Music%20Performance.jpg</item>
+        <item>https://www.holidify.com/blog/wp-content/uploads/2016/10/3526882200_40f6e04487_o.jpg</item>
+        <item>http://3.bp.blogspot.com/-hsKC4R1Hzv8/T8qZtNOApPI/AAAAAAAAADI/B1ERHn6CjwY/s1600/Handloom-and-Handicrafts1.jpg</item>
+        <item>http://s3.india.com/travel/wp-content/uploads/2015/08/mizoram.jpg</item>
+    </string-array>
+
 
     <string-array name="meghalaya_tourist">
         <item>meghalayat1</item>
@@ -941,39 +1015,38 @@ In a beautiful hillock surrounded by amazing beauty and greenery, is situated a 
     <string name="title_activity_map_nearby_facilities">Map</string>
 
     <string name="hello_world">Hello world!</string>
-    <string name="str_btn_find">Find</string>
+        <string name="str_btn_find">Find</string>
 
-    <string-array name="place_type">
-        <item>SelectNearbyPlaces</item>
-        <item>airport</item>
-        <item>atm</item>
-        <item>bank</item>
-        <item>bus_station</item>
-        <item>church</item>
-        <item>doctor</item>
-        <item>hospital</item>
-        <item>mosque</item>
-        <item>movie_theater</item>
-        <item>hindu_temple</item>
-        <item>restaurant</item>
-    </string-array>
+        <string-array name="place_type">
+            <item>airport</item>
+            <item>atm</item>
+            <item>bank</item>
+            <item>bus_station</item>
+            <item>church</item>
+            <item>doctor</item>
+            <item>hospital</item>
+            <item>mosque</item>
+            <item>movie_theater</item>
+            <item>hindu_temple</item>
+            <item>restaurant</item>
+        </string-array>
 
-    <string-array name="place_type_name">
-        <item>SelectNearbyPlaces</item>
-        <item>Airport</item>
-        <item>ATM</item>
-        <item>Bank</item>
-        <item>Bus Station</item>
-        <item>Church</item>
-        <item>Doctor</item>
-        <item>Hospital</item>
-        <item>Mosque</item>
-        <item>Movie Theater</item>1
-        <item>Hindu Temple</item>
-        <item>Restaurant</item>
-    </string-array>
+        <string-array name="place_type_name">
+            <item>Airport</item>
+            <item>ATM</item>
+            <item>Bank</item>
+            <item>Bus Station</item>
+            <item>Church</item>
+            <item>Doctor</item>
+            <item>Hospital</item>
+            <item>Mosque</item>
+            <item>Movie Theater</item>1
+            <item>Hindu Temple</item>
+            <item>Restaurant</item>
+        </string-array>
 
-    <string name="hint_email">Email</string>
+   <string name="hint_email">Email</string>
+
     <string name="hint_password">Password</string>
     <string name="hint_name">Fullname</string>
     <string name="btn_login">LOGIN</string>

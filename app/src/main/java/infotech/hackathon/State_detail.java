@@ -16,12 +16,7 @@ public class State_detail extends AppCompatActivity {
     CommonRecyclerViewAdapter adapter;
     private String[] state_detail_name;
     static int ResId_state;
-    private String[] state_detail_images={"https://tmi2-tourmyindiapvtlt.netdna-ssl.com/blog/wp-content/uploads/2015/01/pelling-kanchendzonga.jpg",
-            "https://tmi2-tourmyindiapvtlt.netdna-ssl.com/blog/wp-content/uploads/2015/01/pelling-kanchendzonga.jpg",
-            "https://tmi2-tourmyindiapvtlt.netdna-ssl.com/blog/wp-content/uploads/2015/01/pelling-kanchendzonga.jpg",
-            "https://tmi2-tourmyindiapvtlt.netdna-ssl.com/blog/wp-content/uploads/2015/01/pelling-kanchendzonga.jpg",
-            "https://tmi2-tourmyindiapvtlt.netdna-ssl.com/blog/wp-content/uploads/2015/01/pelling-kanchendzonga.jpg",
-    };
+    private String[] state_detail_images;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +27,35 @@ public class State_detail extends AppCompatActivity {
         ResId_state=getIntent().getExtras().getInt("ResId");
 
         state_detail_name=getResources().getStringArray(R.array.state_detail);
+
+        switch(ResId_state)
+        {
+            case 0:
+                state_detail_images=getResources().getStringArray(R.array.arunachal_detail);
+                break;
+            case 1:
+                state_detail_images=getResources().getStringArray(R.array.assam_detail);
+                break;
+            case 2:
+                state_detail_images=getResources().getStringArray(R.array.manipur_detail);
+                break;
+            case 3:
+                state_detail_images=getResources().getStringArray(R.array.meghalaya_detail);
+                break;
+            case 4:
+                state_detail_images=getResources().getStringArray(R.array.mizoram_detail);
+                break;
+            case 5:
+                state_detail_images=getResources().getStringArray(R.array.nagaland_detail);
+                break;
+            case 6:
+                state_detail_images=getResources().getStringArray(R.array.sikkim_detail);
+                break;
+            case 7:
+                state_detail_images=getResources().getStringArray(R.array.tripura_detail);
+                break;
+
+        }
 
         ArrayList<Bean> arrayList_state=new ArrayList<>();
 
