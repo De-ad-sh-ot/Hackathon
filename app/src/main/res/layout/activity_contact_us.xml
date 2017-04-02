@@ -14,6 +14,8 @@
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:text="Contact Form"
+        android:textSize="25dp"
+        android:padding="16dp"
         android:id="@+id/header"/>
 <LinearLayout
     android:layout_width="wrap_content"
@@ -21,37 +23,61 @@
     android:orientation="vertical"
     android:layout_below="@+id/header"
     >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:padding="16dp"
         android:text="NAME"/>
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="Enter Your Name"
         android:id="@+id/et_name" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Contact Number"/>
+        android:textSize="20dp"
+        android:padding="16dp"
+        android:text="Contact Number:"/>
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="Enter Contact Number"
         android:id="@+id/et_contact" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Message/Query"/>
+        android:textSize="20dp"
+        android:padding="16dp"
+        android:text="Message/Query:"/>
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="Enter Query"
         android:id="@+id/et_query" />
+    </LinearLayout>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Submit"
         android:id="@+id/btnsubmit" />
+
 </LinearLayout>
 </RelativeLayout>
