@@ -4,7 +4,7 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/topdestination"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/top"
             android:title="Top Destinations" />
         <item
             android:id="@+id/NewsFeed"
@@ -16,12 +16,18 @@
             android:title="Explore The North East" />
         <item
             android:id="@+id/Reviews"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/reviews"
             android:title="Reviews" />
         <item
             android:id="@+id/NearebyFacilities"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/nearby_place"
             android:title="Nearby Facilities" />
+
+        <item
+            android:id="@+id/Guide"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Guide" />
+
         <item
             android:id="@+id/Upload"
             android:icon="@drawable/ic_menu_manage"

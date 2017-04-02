@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SMART INDIA HACKATHON, 2017"
+        android:textColor="@color/black"
+        android:textSize="23dp"
+        android:padding="16dp"/>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team Name:"
+        android:padding="10dp"
+        android:paddingStart="16dp"
+        android:paddingLeft="16dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="InfoTech"
+        android:textColor="@color/black"
+        android:textSize="18dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="i4c code:"
+            android:padding="10dp"
+            android:paddingStart="16dp"
+            android:paddingLeft="16dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7477"
+            android:textColor="@color/black"
+            android:textSize="18dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team Members:"
+        android:padding="10dp"
+        android:paddingStart="16dp"
+        android:paddingLeft="16dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Jyoti Tomar
+2. Nitin Singh Chib
+3. Yash Mehrotra
+4. Rohit Kumar
+5. Shubham Jindal
+6. Sayari Roy"
+        android:paddingStart="16dp"
+        android:paddingLeft="16dp"
+        android:textColor="@color/black"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team Mentor:"
+        android:padding="10dp"
+        android:paddingStart="16dp"
+        android:paddingLeft="16dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nikhil Vashishth"
+        android:paddingStart="16dp"
+        android:paddingLeft="16dp"
+        android:textColor="@color/black"
+        android:textSize="18dp"/>
+
+</LinearLayout>

@@ -3,6 +3,7 @@ package infotech.hackathon;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.CountDownTimer;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -17,6 +18,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -38,11 +41,12 @@ public class MainActivity extends AppCompatActivity
     private RecyclerView recyclerViewMain;
     private LinearLayoutManager mLayoutManager;
     CommonRecyclerViewAdapter adapter;
+    private boolean isUserClickedBackButton=false;
     private String[] images={
-        "http://thaitravelmart.com/uploads/tourism_news/05February2016_08.jpg",
-        "https://image.slidesharecdn.com/north-east-india-110708020221-phpapp01/95/north-east-india-tourism-2-728.jpg?cb=1310090758",
             "http://4.bp.blogspot.com/-wKpyv73Yg7U/UNKn09ODrOI/AAAAAAAAABw/R3bhvOcdO98/s1600/North-East-logo.JPG",
-        "https://image.slidesharecdn.com/north-east-india-110708020221-phpapp01/95/north-east-india-tourism-3-728.jpg?cb=1310090758",
+        "https://image.slidesharecdn.com/north-east-india-110708020221-phpapp01/95/north-east-india-tourism-2-728.jpg?cb=1310090758",
+            "http://s3.india.com/travel/wp-content/uploads/2014/12/Main11.jpg",
+            "https://image.slidesharecdn.com/north-east-india-110708020221-phpapp01/95/north-east-india-tourism-3-728.jpg?cb=1310090758",
         "http://www.thomascook.in/tcportal/images/holiday/holidayStaticPages/HolidayPhotoMaster/UN15108979.jpg",
         "https://image.slidesharecdn.com/north-east-india-110708020221-phpapp01/95/north-east-india-tourism-4-728.jpg?cb=1310090758"
     };
@@ -126,12 +130,31 @@ public class MainActivity extends AppCompatActivity
 
     @Override
     public void onBackPressed() {
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        if (drawer.isDrawerOpen(GravityCompat.START)) {
-            drawer.closeDrawer(GravityCompat.START);
+        if (!isUserClickedBackButton) {
+            Toast.makeText(this, "Press again to exit", Toast.LENGTH_SHORT).show();
+            isUserClickedBackButton = true;
         } else {
-            super.onBackPressed();
+            finish();
+
+            this.finish();
+            Intent intent = new Intent(Intent.ACTION_MAIN);
+            intent.addCategory(Intent.CATEGORY_HOME);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            startActivity(intent);
+
         }
+        new CountDownTimer(3000, 1000) {
+
+            @Override
+            public void onTick(long l) {
+
+            }
+
+            @Override
+            public void onFinish() {
+                isUserClickedBackButton = false;
+            }
+        }.start();
     }
 
     @Override
@@ -243,10 +266,12 @@ public class MainActivity extends AppCompatActivity
           k.putExtra("userinformation",userinformation.getText().toString());
             startActivity(k);
         } else if (id == R.id.ContactUs) {
-
+Intent i=new Intent(MainActivity.this,ContactUs.class);
+            startActivity(i);
 
         } else if (id == R.id.AboutandHelp) {
-
+            Intent i=new Intent(MainActivity.this,AboutUs.class);
+            startActivity(i);
         }
         else if (id == R.id.NearebyFacilities) {
 
